@@ -1,0 +1,22 @@
+BIRTHPLACE INDEX - DATA CREDITS
+
+This folder is the place index the birthplace search reads (frontend-app/src/app/location/openPlaceIndex.ts). It is built, offline, by
+frontend-app/scripts/places/buildPlaceIndex.mjs from two open datasets. How, and what is left out: docs/data/OPEN_PLACE_DATA.md.
+
+1. GeoNames gazetteer - settlements, their names, coordinates, populations and time zones
+   https://www.geonames.org/
+   Licence: Creative Commons Attribution 4.0 (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+   Files used: cities500, SK, CZ, admin1CodesASCII, countryInfo and the Slovak alternate names, from
+   https://download.geonames.org/export/dump/ (dump of 2026-10-23).
+   Changes made: places filtered (populated places only), names romanised for search, coordinates rounded to four decimals,
+   alternate names reduced to romanised aliases, the data cut into shards. GeoNames does not endorse this use.
+
+2. OpenStreetMap - maternity facilities (the "facilities.json" file)
+   (c) OpenStreetMap contributors, https://www.openstreetmap.org/copyright
+   Licence: Open Database License (ODbL) 1.0, https://opendatacommons.org/licenses/odbl/1-0/
+   Extract used: Geofabrik, slovakia-261022.osm.pbf, https://download.geofabrik.de/europe/slovakia.html
+   Changes made: objects selected by the rule in docs/data/OPEN_PLACE_DATA.md ("What counts as a maternity facility"), named and tied to
+   the nearest settlement. The result is a Derivative Database under the ODbL: it is shared under the same licence, and this file is its credit.
+
+Nothing in this folder is a statement that a facility existed, or had a maternity ward, on any day in the past: it is what OpenStreetMap
+says today. No data here comes from Google or from any service that forbids storing it.

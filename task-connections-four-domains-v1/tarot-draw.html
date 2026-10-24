@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b0d0f" />
+    <meta name="description" content="Tarot daily draw — interactive review harness" />
+    <title>Daily draw · KNOW THYSELF</title>
+    <link rel="stylesheet" href="/know-thyself-preview/task-connections-four-domains-v1/tarot-draw.css" />
+  </head>
+  <body>
+    <!--
+      A REVIEW HARNESS, NOT A PRODUCT ROUTE.
+
+      The Tarot draw is mounted on its own page rather than added to the main flow's
+      nav strip, and that is a deliberate refusal rather than a shortcut: WHERE
+      Tarot enters the product is a decision the product owner has not made, and
+      putting it in the strip would make that decision silently. It is also why
+      nothing in the main application imports this file.
+
+      The locale switch is here because both voices have to be reviewable on the
+      phone in one sitting; it is a harness control and not product UI.
+    -->
+    <main id="tarot-draw-root" aria-live="polite"></main>
+
+    <nav class="kt-tarot-harness" aria-label="Review controls">
+      <button type="button" data-harness-locale="en" aria-pressed="true">English</button>
+      <button type="button" data-harness-locale="sk" aria-pressed="false">Slovensky</button>
+    </nav>
+
+    <style>
+      .kt-tarot-harness {
+        display: flex; gap: 8px; justify-content: center;
+        padding: 0 16px calc(28px + env(safe-area-inset-bottom));
+        max-width: 760px; margin: 0 auto;
+      }
+      .kt-tarot-harness button {
+        min-height: 44px; padding: 8px 18px; border-radius: 8px; font: inherit;
+        background: #16191d; color: #9aa4af; border: 1px solid #2c333b; cursor: pointer;
+      }
+      .kt-tarot-harness button[aria-pressed='true'] { color: #c9a227; border-color: #6b5713; }
+      .kt-tarot-harness button:focus-visible { outline: 2px solid #c9a227; outline-offset: 2px; }
+    </style>
+
+    <script type="module">
+      import { mountTarotDraw } from '/know-thyself-preview/task-connections-four-domains-v1/assets/frontend-app/src/app/tarot/ui/tarotDrawController.js';
+      import { setActiveLocale, LOCALE_CHANGED_EVENT } from '/know-thyself-preview/task-connections-four-domains-v1/assets/frontend-app/src/app/i18n/locale.js';
+
+      const mount = document.getElementById('tarot-draw-root');
+      mountTarotDraw({ mount });
+
+      /* The controller already listens for LOCALE_CHANGED_EVENT and re-renders, so
+         the harness only has to announce the change - it never re-mounts, which
+         would look like a fresh draw and would be the wrong thing to demonstrate. */
+      for (const button of document.querySelectorAll('[data-harness-locale]')) {
+        button.addEventListener('click', () => {
+          if (!setActiveLocale(button.dataset.harnessLocale)) return;
+          window.dispatchEvent(new CustomEvent(LOCALE_CHANGED_EVENT));
+          for (const other of document.querySelectorAll('[data-harness-locale]')) {
+            other.setAttribute('aria-pressed', String(other === button));
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
