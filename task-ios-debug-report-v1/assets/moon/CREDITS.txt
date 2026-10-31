@@ -1,0 +1,12 @@
+The Moon's surface in KNOW THYSELF PRO: credits.
+
+lroc_color_2k.jpg  - colour map of the Moon, 2048 x 1024, equirectangular (centre longitude 0, north up).
+ldem_3_8bit.jpg    - elevation map of the Moon, 1024 x 512, 8 bit, used only to give the surface its relief under the Sun.
+
+Both files are unmodified, as published, from NASA's Scientific Visualization Studio, "CGI Moon Kit"
+(https://svs.gsfc.nasa.gov/4720/), by Ernie Wright (NASA/GSFC SVS). The maps are made from data
+assembled by the Lunar Reconnaissance Orbiter (LROC wide-angle colour mosaic; LOLA laser altimetry).
+
+Please give credit to: NASA's Scientific Visualization Studio.  NASA imagery is not copyrighted and may be used freely
+with credit (https://www.nasa.gov/nasa-brand-center/images-and-media/). Nothing is fetched from NASA at run time;
+the files are served from the application's own origin.

@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="kt-build" content="c7013f9" />
+    <meta charset="UTF-8" />
+    <!-- interactive-widget MUST be stated explicitly. Its spec default is
+         resizes-visual, under which Chrome PANS the visual viewport to reveal a
+         focused field - which slides the whole page, Earth included, up behind
+         the browser chrome. That is the physical-Samsung bug, and it is why
+         every earlier fix worked in a desktop simulation and failed on device:
+         shrinking a desktop window emulates resizes-content, the mode the page
+         was never actually in. resizes-content shrinks the LAYOUT viewport
+         instead, so the visual viewport never pans; the scene is then held
+         still by its own fixed root in onboardingKeyboardViewport. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content"
+    />
+    <meta name="theme-color" content="#050706" />
+    <meta name="description" content="Choose and confirm your birthplace in KNOW THYSELF" />
+    <title>Place · KNOW THYSELF</title>
+    <link rel="stylesheet" href="/know-thyself-preview/task-english-launch-and-reading-quality-/premium-earth-phase-a.css" />
+    <style>
+      /* Stronger seamless crossfade from the preserved rotating-Earth template:
+         the warp lingers visibly while the live Earth becomes readable much sooner. */
+      .spacetime-intro {
+        transition: opacity 2200ms cubic-bezier(0.33, 0, 0.67, 1) !important;
+      }
+
+      /*
+       * THE INCARNATION VEIL.
+       * ---------------------
+       * A beat BEFORE the warp: pure black, one line, and then the black
+       * dissolves into the tunnel rather than cutting to it.
+       *
+       * WHY A SEPARATE LAYER ABOVE THE WARP
+       * The warp overlay is already opaque black with the video inside it, so
+       * the phrase could have ridden it - and used to. It does not now, because
+       * the words are meant to be read on nothing at all. Over a moving tunnel
+       * they compete with it; the pause is the effect.
+       *
+       * THE WARP ARRIVES UNDER THE TAIL OF THE WORDS
+       * The phrase starts leaving at in + hold and takes its time about it. The
+       * black begins lifting later, timed so that it finishes on the same frame
+       * the words do - the tunnel comes up under the last part of the dissolve,
+       * and neither is left finishing on its own. The video is armed a hair
+       * before that so its first frames are already running underneath rather
+       * than starting from a still.
+       *
+       * A version in between kept them apart, with a beat of empty black after
+       * the words and before the tunnel. It was cleaner to describe and worse to
+       * watch: the pause read as the page having stalled.
+       *
+       * THE TIMELINE LIVES HERE AND NOWHERE ELSE
+       * --kt-veil-reveal-at is READ by the inline intro script to decide when to
+       * press play. One number in one place: a second copy in JS would drift,
+       * and the drift would show up as a stutter at the handoff. The durations
+       * drive the animations directly rather than through keyframe percentages,
+       * so changing one value cannot silently desynchronise the rest.
+       */
+      .incarnation-veil {
+        /* Two seconds arriving, a second held, three seconds leaving. The
+           fade-out is the longest span in the beat on purpose: it is the part
+           that was reading as the words being cut off. */
+        --kt-phrase-in: 2000ms;
+        --kt-phrase-hold: 1000ms;
+        --kt-phrase-out: 3000ms;
+        /*
+         * THE WARP ARRIVES INSIDE THE LAST PART OF THE FADE, NOT ACROSS ALL OF IT.
+         *
+         * The words begin leaving at in + hold = 3000ms and are gone at 6000ms.
+         * The black starts lifting at 4500ms and takes 1500ms, so it finishes on
+         * the same frame the words do: the tunnel comes up under the tail of the
+         * dissolve rather than under the whole of it, and neither one is left
+         * finishing alone.
+         *
+         * These two are therefore NOT the same number any more, and the phrase
+         * is no longer pinned to this one - it has its own start at in + hold.
+         * The relationship that has to hold is
+         *   reveal-at + veil-out == in + hold + out
+         * which is what the test asserts rather than the individual figures.
+         */
+        --kt-veil-reveal-at: 4500ms;
+        --kt-veil-out: 1500ms;
+
+        position: absolute;
+        inset: 0;
+        /* Above .spacetime-intro, which is 9. */
+        z-index: 10;
+        display: grid;
+        place-items: center;
+        background: #000;
+        pointer-events: none;
+        opacity: 1;
+        animation: kt-veil-lift var(--kt-veil-out) cubic-bezier(0.4, 0, 0.2, 1)
+          var(--kt-veil-reveal-at) forwards;
+      }
+
+      .incarnation-phrase {
+        margin: 0;
+        width: min(84vw, 460px);
+        text-align: center;
+        font-family: var(--font-display, "Cormorant Garamond", Georgia, serif);
+        font-size: clamp(21px, 5.6vw, 34px);
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: .012em;
+        color: rgba(244, 242, 252, .94);
+        text-shadow: 0 0 18px rgba(120, 108, 220, .5), 0 0 46px rgba(0, 0, 0, .55);
+        opacity: 0;
+        /* Two animations, not one keyframe track: the fade-in owns the opening
+           and the fade-out owns the dissolve, each on its own clock. The
+           dissolve starts at in + hold and runs the full --kt-phrase-out; the
+           black lifts later, inside its tail. The easing eases OUT at the end
+           (the 0.24, 1 control point), so the last of the opacity is the
+           slowest part rather than a step to zero. */
+        animation:
+          kt-phrase-rise var(--kt-phrase-in) cubic-bezier(0.32, 0, 0.24, 1) forwards,
+          kt-phrase-dissolve var(--kt-phrase-out) cubic-bezier(0.32, 0, 0.24, 1)
+            calc(var(--kt-phrase-in) + var(--kt-phrase-hold)) forwards;
+      }
+
+      @keyframes kt-veil-lift {
+        to { opacity: 0; visibility: hidden; }
+      }
+
+      @keyframes kt-phrase-rise {
+        from { opacity: 0; transform: translateY(10px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      /*
+       * BOTH ENDS ARE WRITTEN OUT.
+       *
+       * `to { opacity: 0 }` alone leaves the from-keyframe implicit, and an
+       * implicit keyframe takes the property's UNDERLYING value - which here is
+       * the `opacity: 0` declared on .incarnation-phrase, not the 1 that the
+       * fade-in is holding through its forwards fill. Engines disagree about
+       * whether an earlier animation in the same stack counts as underlying, so
+       * the dissolve could run 0 -> 0 and the words would blink out instead of
+       * fading. Writing `from` removes the question.
+       */
+      @keyframes kt-phrase-dissolve {
+        from { opacity: 1; transform: translateY(0); }
+        to   { opacity: 0; transform: translateY(-8px); }
+      }
+
+      /*
+       * The drift goes; the crossfade stays. It is the transition itself rather
+       * than decoration, and a hard cut into the warp is the one thing this beat
+       * exists to remove.
+       *
+       * The durations are restated with !important because the sitewide
+       * reduced-motion rule in premium-earth-phase-a.css collapses EVERY
+       * animation to 0.01ms. Without this the phrase flashes for one frame and
+       * the black cuts - measured, not assumed. That file already carves out
+       * .spacetime-intro and .earth-map for the same reason; this joins them.
+       */
+      @media (prefers-reduced-motion: reduce) {
+        .incarnation-veil {
+          animation-name: kt-veil-lift !important;
+          animation-duration: var(--kt-veil-out) !important;
+          animation-delay: var(--kt-veil-reveal-at) !important;
+          animation-fill-mode: forwards !important;
+          animation-timing-function: linear !important;
+        }
+        .incarnation-phrase {
+          animation-name: kt-phrase-rise-still, kt-phrase-dissolve-still !important;
+          animation-duration: var(--kt-phrase-in), var(--kt-phrase-out) !important;
+          animation-delay: 0ms, calc(var(--kt-phrase-in) + var(--kt-phrase-hold)) !important;
+          animation-fill-mode: forwards, forwards !important;
+          animation-timing-function: linear, linear !important;
+        }
+        @keyframes kt-phrase-rise-still { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes kt-phrase-dissolve-still { from { opacity: 1; } to { opacity: 0; } }
+      }
+
+      .earth-map {
+        transition: opacity 1500ms cubic-bezier(0.33, 0, 0.67, 1) !important;
+      }
+
+      /* VESSEL orbit — three equal choices, always separated by exactly 120 degrees.
+         Position is driven by vesselOrbit.ts so the whole triangle can rotate and be dragged. */
+      .vessel-orbit {
+        position: relative;
+        display: block;
+        width: min(76vw, 440px);
+        aspect-ratio: 1;
+        margin-top: clamp(24px, 4.5vh, 42px);
+        touch-action: none;
+        cursor: grab;
+        user-select: none;
+        -webkit-user-select: none;
+        overscroll-behavior: contain;
+      }
+
+      .vessel-orbit::before {
+        position: absolute;
+        inset: 18.5%;
+        border: 1px solid rgba(216, 195, 142, 0.085);
+        border-radius: 50%;
+        content: "";
+        pointer-events: none;
+        box-shadow:
+          0 0 52px rgba(216, 195, 142, 0.025),
+          0 0 0 1px rgba(244, 241, 233, 0.012) inset;
+      }
+
+      .vessel-orbit::after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        content: "";
+        pointer-events: none;
+        opacity: 0.46;
+        transform: translate(-50%, -50%);
+        background: rgba(216, 195, 142, 0.5);
+        box-shadow: 0 0 24px rgba(216, 195, 142, 0.24);
+      }
+
+      .vessel-orbit.is-dragging { cursor: grabbing; }
+
+      .vessel-choice {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: clamp(92px, 13vw, 138px);
+        gap: 12px;
+        transform:
+          translate(-50%, -50%)
+          translate3d(var(--vessel-x, 0px), var(--vessel-y, 0px), 0);
+        transition: transform 90ms linear, opacity 250ms ease;
+        will-change: transform;
+      }
+
+      .vessel-orbit.is-dragging .vessel-choice { transition: opacity 250ms ease; }
+
+      .vessel-choice .vessel-symbol {
+        width: 100%;
+        animation: none !important;
+      }
+
+      .vessel-choice-female .vessel-symbol,
+      .vessel-choice-nonbinary .vessel-symbol {
+        animation: none !important;
+      }
+
+      .vessel-actions { margin-top: clamp(18px, 3vh, 30px); }
+
+      @media (max-width: 680px) {
+        .vessel-orbit {
+          width: min(82vw, 340px);
+          margin-top: 22px;
+        }
+
+        .vessel-choice { width: clamp(80px, 25vw, 104px); }
+        .vessel-actions { margin-top: 18px; }
+      }
+
+      @media (max-height: 690px) {
+        .vessel-orbit {
+          width: min(66vw, 270px);
+          margin-top: 16px;
+        }
+
+        .vessel-choice { width: clamp(68px, 18vh, 88px); }
+        .vessel-actions { margin-top: 14px; }
+      }
+
+      /* Focused VESSEL = the live Earth itself.
+         At the canonical 56,000 km / 35° world pose the globe occupies ~32.6%
+         of the map viewport height. Binding the focused selector to that same
+         projected diameter makes its coloured rim read as the Earth's atmosphere
+         instead of a separate floating bubble. */
+      .vessel-orbit.is-focused .vessel-choice.is-focused {
+        width: min(86vw, 32.6dvh, 520px) !important;
+        transform: translate(-50%, -50%) translate3d(0, 0, 0) scale(1) !important;
+        filter: brightness(1.04) blur(0) !important;
+      }
+
+      .vessel-orbit.is-focused .vessel-choice.is-focused .vessel-symbol {
+        border-color: rgba(var(--vessel-energy-rgb), 0.74) !important;
+        background:
+          radial-gradient(circle at 29% 22%, rgba(255, 255, 255, 0.11), transparent 12%),
+          radial-gradient(circle at 72% 72%, rgba(var(--vessel-energy-soft-rgb), 0.025), transparent 32%),
+          radial-gradient(circle at 50% 48%, rgba(var(--vessel-energy-rgb), 0.012), rgba(3, 6, 7, 0.018) 68%, rgba(3, 6, 7, 0.035) 100%) !important;
+        box-shadow:
+          0 0 0 1px rgba(255, 255, 255, 0.045) inset,
+          0 0 18px rgba(var(--vessel-energy-rgb), 0.3),
+          0 0 44px rgba(var(--vessel-energy-rgb), 0.2),
+          0 0 86px rgba(var(--vessel-energy-rgb), 0.11) !important;
+        backdrop-filter: blur(1.5px) saturate(1.01) !important;
+        -webkit-backdrop-filter: blur(1.5px) saturate(1.01) !important;
+      }
+
+      .vessel-orbit.is-focused .vessel-choice.is-focused .vessel-symbol::before {
+        inset: 1.5% !important;
+        border-color: rgba(var(--vessel-energy-soft-rgb), 0.16) !important;
+        opacity: 0.82 !important;
+        -webkit-mask: radial-gradient(circle, transparent 0 91%, #000 93% 100%) !important;
+        mask: radial-gradient(circle, transparent 0 91%, #000 93% 100%) !important;
+      }
+
+      .vessel-orbit.is-focused .vessel-choice.is-focused .vessel-symbol::after {
+        opacity: 0.18 !important;
+      }
+
+      .vessel-orbit.is-focused .vessel-choice.is-focused .vessel-label {
+        margin-top: 2px;
+      }
+
+      @media (max-height: 690px) {
+        .vessel-orbit.is-focused .vessel-choice.is-focused {
+          width: min(82vw, 32.6dvh, 420px) !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="place-experience"
+      id="place-experience"
+      data-intro-state="preloading"
+      data-state="search"
+    >
+      <div
+        class="earth-map"
+        id="earth-map"
+        aria-label="The Earth, slowly turning behind the page. Search for your birthplace below."
+      ></div>
+
+      <div class="atmosphere" aria-hidden="true"></div>
+      <div class="earth-loading-cover" id="earth-loading-cover" aria-hidden="true"></div>
+
+      <!-- Sits ABOVE the warp overlay so the warp can fade up underneath it. -->
+      <div class="incarnation-veil" id="incarnation-veil" aria-hidden="true">
+        <p
+          class="incarnation-phrase"
+          id="incarnation-phrase"
+          data-kt-en="Your soul is entering matter"
+          data-kt-sk="Tvoja duša vstupuje do hmoty"
+        >Your soul is entering matter</p>
+      </div>
+      <script>
+        /*
+         * THE FIRST PAINTED FRAME MUST ALREADY BE IN THE RIGHT LANGUAGE.
+         *
+         * The i18n pass that fills #incarnation-phrase lives in a module, and
+         * modules are deferred - they run after the document is parsed. The
+         * phrase meanwhile starts fading in at t=0. So a Slovak reader watched
+         * the English line fade up and then swap under them.
+         *
+         * This runs synchronously, in the body, immediately after the element,
+         * so the text is correct before anything is painted. Inline and tiny on
+         * purpose: a deferred script cannot win this race by definition.
+         *
+         * The two strings are duplicated here from uiStrings.ts, which is a real
+         * cost - so a test asserts they still match, and that is what keeps them
+         * honest. The i18n pass still runs later and sets the same value.
+         */
+        (function () {
+          var el = document.getElementById('incarnation-phrase');
+          if (!el) return;
+          var locale = null;
+          /* Private mode and blocked storage both throw rather than return null. */
+          try { locale = window.localStorage.getItem('kt-locale'); } catch (error) { locale = null; }
+          /* English-only launch (i18n/launchPolicy.ts): a stored "sk" is honoured only by a developer/audit page that set the override flag before this script. */
+          var allowOther = window.__KT_ALLOW_NON_LAUNCH_LOCALES__ === true;
+          var text = (allowOther && locale === 'sk') ? el.getAttribute('data-kt-sk') : el.getAttribute('data-kt-en');
+          if (text) el.textContent = text;
+        })();
+      </script>
+
+      <div class="spacetime-intro" id="spacetime-intro" aria-hidden="true">
+        <video
+          id="spacetime-video"
+          muted
+          playsinline
+          preload="auto"
+          tabindex="-1"
+          disablepictureinpicture
+          disableremoteplayback
+        >
+          <source src="/know-thyself-preview/task-english-launch-and-reading-quality-/assets/onboarding/opening-warp-16x9.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <section class="interaction-dock" id="interaction-dock" aria-label="Choose and confirm your birthplace" inert>
+        <div class="place-results-shell" id="place-results-shell" hidden>
+          <ul class="place-results" id="place-results" role="listbox" aria-label="Birthplace suggestions"></ul>
+        </div>
+
+        <!-- This poetic question is part of the PLACE card, so it fades and retires with the search field. -->
+        <p class="place-story-prompt" id="place-story-prompt">Where will your story begin?</p>
+
+        <form class="place-search" id="place-search" role="search" novalidate>
+          <label class="sr-only" for="place-query">Search for your birthplace</label>
+          <span class="search-icon" aria-hidden="true"></span>
+          <input
+            id="place-query"
+            name="place"
+            type="search"
+            placeholder="Enter your birthplace"
+            autocomplete="off"
+            aria-autocomplete="list"
+            aria-controls="place-results"
+            aria-expanded="false"
+          />
+          <button class="search-submit" type="submit" aria-label="Search">
+            <span aria-hidden="true">→</span>
+          </button>
+        </form>
+
+        <article class="birthplace-card" id="birthplace-card" hidden>
+          <div class="birthplace-copy">
+            <p>Birthplace</p>
+            <h2 id="birthplace-name"></h2>
+            <p class="birthplace-meta" id="birthplace-meta"></p>
+          </div>
+          <div class="birthplace-actions">
+            <button class="change-place" id="change-place" type="button">Change</button>
+            <button class="confirm-place" id="confirm-place" type="button" disabled>Confirm</button>
+          </div>
+        </article>
+      </section>
+
+      <section
+        class="vessel-stage"
+        id="vessel-stage"
+        aria-labelledby="vessel-title"
+        aria-hidden="true"
+        inert
+      >
+        <div class="vessel-cosmos" aria-hidden="true"></div>
+
+        <div class="vessel-content">
+          <header class="vessel-copy">
+            <p class="vessel-kicker">02 · Vessel</p>
+            <h1 id="vessel-title">Choose your body</h1>
+            <p class="vessel-question">What body are you entering?</p>
+          </header>
+
+          <p class="sr-only" id="vessel-orbit-instructions">
+            Drag around the orbit to rotate the vessel choices. Tap a vessel to select it.
+          </p>
+
+          <div
+            class="vessel-orbit"
+            id="vessel-orbit"
+            role="group"
+            aria-label="Choose your birth vessel"
+            aria-describedby="vessel-orbit-instructions"
+          >
+            <button class="vessel-choice vessel-choice-male" type="button" data-vessel="male" aria-pressed="false">
+              <span class="vessel-symbol" aria-hidden="true">♂</span>
+              <span class="vessel-label">Male</span>
+            </button>
+
+            <button class="vessel-choice vessel-choice-female" type="button" data-vessel="female" aria-pressed="false">
+              <span class="vessel-symbol" aria-hidden="true">♀</span>
+              <span class="vessel-label">Female</span>
+            </button>
+
+            <button class="vessel-choice vessel-choice-nonbinary" type="button" data-vessel="nonbinary" aria-pressed="false">
+              <span class="vessel-symbol vessel-symbol-neutral" aria-hidden="true">⚲</span>
+              <span class="vessel-label">Nonbinary</span>
+            </button>
+          </div>
+
+          <div class="vessel-actions">
+            <button class="vessel-undefined" id="vessel-undefined" type="button" aria-pressed="false">
+              I’d rather not define it
+            </button>
+            <button class="confirm-vessel" id="confirm-vessel" type="button" disabled>
+              Accept Body
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <p class="sr-only" id="experience-status" aria-live="polite"></p>
+    </main>
+
+    <!-- The pillar experience imports the calculation engine, which reaches
+         astronomy-engine by bare specifier. The main app resolves that through
+         an import map to the copy the build places in /vendor; this page needs
+         the same mapping now that it runs the engine too. -->
+    <script type="importmap">
+      { "imports": { "astronomy-engine": "/know-thyself-preview/task-english-launch-and-reading-quality-/vendor/astronomy-engine.js" } }
+    </script>
+    <script src="/know-thyself-preview/task-english-launch-and-reading-quality-/runtime-config.js"></script>
+    <script>
+      (() => {
+        const experience = document.getElementById('place-experience');
+        const mapContainer = document.getElementById('earth-map');
+        const overlay = document.getElementById('spacetime-intro');
+        const video = document.getElementById('spacetime-video');
+        if (
+          !(experience instanceof HTMLElement)
+          || !(mapContainer instanceof HTMLElement)
+          || !(overlay instanceof HTMLElement)
+          || !(video instanceof HTMLVideoElement)
+        ) return;
+
+        const maxIntroRangeMeters = 900_000_000;
+        const warpHandoffSeconds = 3.4;
+        const readinessTimeoutMillis = 6_000;
+        let liveMap = null;
+        let rangeGuardAttached = false;
+        let earthZoomStarted = experience.dataset.introState === 'earth-zooming';
+        let warpReachedHandoff = false;
+        let released = false;
+        let readinessTimer = 0;
+        let resolveWarpReady = null;
+
+        window.__knowThyselfWarpReadyPromise = new Promise((resolve) => {
+          resolveWarpReady = resolve;
+        });
+
+        const guardLiveRange = () => {
+          if (!liveMap || experience.dataset.introState === 'complete') return;
+          const range = Number(liveMap.range);
+          if (Number.isFinite(range) && range > maxIntroRangeMeters) {
+            liveMap.range = maxIntroRangeMeters;
+          }
+        };
+
+        const attachLiveRangeGuard = () => {
+          const candidate = mapContainer.querySelector('gmp-map-3d');
+          if (!(candidate instanceof HTMLElement) || rangeGuardAttached) return;
+          liveMap = candidate;
+          rangeGuardAttached = true;
+          candidate.addEventListener('gmp-rangechange', guardLiveRange);
+          guardLiveRange();
+          experience.dataset.introMaxRangeKm = '900000';
+          experience.dataset.introMedium = 'opening-warp-16x9-plus-rotating-live-google-3d';
+        };
+
+        const cleanup = () => {
+          window.clearTimeout(readinessTimer);
+          mapChildObserver.disconnect();
+          experienceObserver.disconnect();
+          if (liveMap && rangeGuardAttached) {
+            liveMap.removeEventListener('gmp-rangechange', guardLiveRange);
+          }
+          video.pause();
+        };
+
+        const releaseDurationMillis = 2_200;
+
+        /* The tunnel is over: let go of its decoder. Removing the overlay already pauses a playing element, but the file stays
+           open and decoded until the element is collected - on a phone that is memory the Earth behind it can use. */
+        const releaseVideo = () => {
+          try {
+            video.pause();
+            for (const source of video.querySelectorAll('source')) source.remove();
+            video.removeAttribute('src');
+            video.load();
+          } catch { /* a video that cannot be released is already not playing */ }
+        };
+
+        const releaseWarp = () => {
+          if (released || !earthZoomStarted || !warpReachedHandoff) return;
+          released = true;
+          experience.dataset.warpIntro = 'crossfading-to-rotating-live-earth';
+          overlay.classList.add('is-releasing');
+          window.setTimeout(() => {
+            overlay.remove();
+            releaseVideo();
+            experience.dataset.warpIntro = 'complete';
+          }, releaseDurationMillis + 80);
+        };
+
+        const reachWarpHandoff = () => {
+          if (warpReachedHandoff) return;
+          warpReachedHandoff = true;
+          experience.dataset.warpIntro = earthZoomStarted ? 'handoff-ready' : 'tunnel-complete-waiting-for-earth';
+          resolveWarpReady?.();
+          resolveWarpReady = null;
+          releaseWarp();
+        };
+
+        video.muted = true;
+        video.defaultMuted = true;
+        video.playsInline = true;
+        video.controls = false;
+        video.loop = false;
+
+        const startVideo = () => {
+          experience.dataset.warpIntro = 'playing-color-warp';
+          const playback = video.play();
+          if (playback) {
+            void playback.catch(() => {
+              experience.dataset.warpIntro = 'playback-failed';
+              reachWarpHandoff();
+            });
+          }
+        };
+
+        video.addEventListener('timeupdate', () => {
+          if (video.currentTime >= warpHandoffSeconds) reachWarpHandoff();
+        });
+        video.addEventListener('ended', reachWarpHandoff);
+        video.addEventListener('error', () => {
+          experience.dataset.warpIntro = 'media-error';
+          reachWarpHandoff();
+        });
+
+        const mapChildObserver = new MutationObserver(attachLiveRangeGuard);
+        mapChildObserver.observe(mapContainer, { childList: true, subtree: true });
+        attachLiveRangeGuard();
+
+        const experienceObserver = new MutationObserver(() => {
+          guardLiveRange();
+          const state = experience.dataset.introState;
+          if (state === 'earth-zooming') {
+            earthZoomStarted = true;
+            experience.classList.add('earth-materializing');
+            releaseWarp();
+          }
+          if (state === 'search-revealing' || state === 'complete') {
+            experience.classList.remove('earth-materializing');
+          }
+          if (state !== 'complete') return;
+          if (liveMap && rangeGuardAttached) {
+            liveMap.removeEventListener('gmp-rangechange', guardLiveRange);
+            rangeGuardAttached = false;
+          }
+        });
+        experienceObserver.observe(experience, { attributes: true, attributeFilter: ['data-intro-state'] });
+
+        /*
+         * THE WARP WAITS FOR THE VEIL.
+         *
+         * The tunnel hands off 3.4s after it starts playing. If it began at
+         * load it would be almost over by the time the veil lifted, and the
+         * reader would meet the end of an animation they never saw the start
+         * of. So play is deferred until just before the black begins to
+         * dissolve - a small head start, so the first frames are already
+         * running as it clears rather than starting from a still.
+         *
+         * The delay is READ FROM THE VEIL'S OWN CSS rather than repeated here.
+         * Two copies of this number would drift the moment someone retimed the
+         * text, and the drift would look like a stutter at the handoff.
+         *
+         * If the veil is missing for any reason, this falls back to starting
+         * immediately - the old behaviour - rather than never playing at all.
+         */
+        const veil = document.getElementById('incarnation-veil');
+        const headStartMillis = 120;
+        const veilDelayMillis = (() => {
+          if (!veil) return 0;
+          const raw = getComputedStyle(veil).getPropertyValue('--kt-veil-reveal-at').trim();
+          const parsed = raw.endsWith('ms') ? Number.parseFloat(raw)
+            : raw.endsWith('s') ? Number.parseFloat(raw) * 1000
+            : Number.NaN;
+          if (!Number.isFinite(parsed) || parsed < 0) return 0;
+          return Math.max(0, parsed - headStartMillis);
+        })();
+
+        const armVideo = () => {
+          if (video.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA) startVideo();
+          else video.addEventListener('canplay', startVideo, { once: true });
+        };
+
+        /* The readiness net starts with the video, not with the page: measuring
+           it from load would spend the veil's seconds and fire early. */
+        const armReadinessNet = () => {
+          readinessTimer = window.setTimeout(() => {
+            if (!warpReachedHandoff) reachWarpHandoff();
+          }, readinessTimeoutMillis);
+        };
+
+        if (veilDelayMillis > 0) {
+          window.setTimeout(() => { armVideo(); armReadinessNet(); }, veilDelayMillis);
+        } else {
+          armVideo();
+          armReadinessNet();
+        }
+
+        /* A phone that is put down mid-tunnel can leave the video paused when it is picked up again. The readiness net hands the
+           intro off either way; this only lets the tunnel carry on from where it stopped, so the reader is not left watching one
+           frozen frame until the net fires. */
+        document.addEventListener('visibilitychange', () => {
+          if (document.visibilityState !== 'visible' || warpReachedHandoff || released) return;
+          if (video.paused && !video.ended && video.currentTime > 0) void video.play().catch(() => {});
+        });
+
+        window.addEventListener('pagehide', cleanup, { once: true });
+      })();
+    </script>
+    <script type="module" src="/know-thyself-preview/task-english-launch-and-reading-quality-/assets/frontend-app/src/premium-earth-phase-a.js"></script>
+    <script type="module" src="/know-thyself-preview/task-english-launch-and-reading-quality-/assets/frontend-app/src/vesselOrbit.js"></script>
+  </body>
+</html>

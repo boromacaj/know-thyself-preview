@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex" />
+<title>Compare debug reports - KNOW THYSELF QA</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; padding: 16px; background: #0b0d0e; color: #ece8dc; font: 15px/1.45 -apple-system, system-ui, 'Segoe UI', sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.lead { color: #b9b4a6; margin: 0 0 14px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+  label { display: block; font-weight: 700; margin-bottom: 4px; }
+  textarea { width: 100%; height: 190px; box-sizing: border-box; background: #060708; color: #e8e4d8; border: 1px solid #3a3d3f; border-radius: 8px; padding: 8px; font: 12px/1.3 ui-monospace, Menlo, Consolas, monospace; }
+  button { margin: 12px 8px 12px 0; min-height: 44px; padding: 0 18px; border: 0; border-radius: 10px; font-weight: 800; letter-spacing: .04em; background: #ffd68c; color: #1b1406; cursor: pointer; }
+  button.secondary { background: #23272a; color: #ece8dc; }
+  pre { white-space: pre-wrap; word-break: break-word; background: #060708; border: 1px solid #3a3d3f; border-radius: 8px; padding: 12px; font: 12.5px/1.4 ui-monospace, Menlo, Consolas, monospace; min-height: 60px; }
+  .note { color: #9a978d; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Compare two debug reports</h1>
+  <p class="lead">Paste the report from the device that works (reference, for example Samsung / Android Chrome) and from the device that misbehaves (problem, for example iPhone). Everything stays in this page: nothing is uploaded.</p>
+  <div class="grid">
+    <div><label for="ref">Reference (works)</label><textarea id="ref" spellcheck="false" placeholder="Paste the whole report here"></textarea></div>
+    <div><label for="prob">Problem device (misbehaves)</label><textarea id="prob" spellcheck="false" placeholder="Paste the whole report here"></textarea></div>
+  </div>
+  <button id="go" type="button">COMPARE</button><button id="copy" class="secondary" type="button">Copy comparison</button>
+  <pre id="out" aria-live="polite">The comparison appears here.</pre>
+  <p class="note">The comparison says where the two devices differ and how sure the evidence is. It does not prove a cause: use the "confirm by" step before changing code.</p>
+</main>
+<script type="module">
+import { parseReport, compareReports, renderComparison } from '/know-thyself-preview/task-ios-debug-report-v1/assets/frontend-app/src/qaDiagnostics/compare.js?v=b5ef5ed';
+const $ = (id) => document.getElementById(id);
+let last = '';
+$('go').addEventListener('click', () => {
+  try {
+    const result = compareReports(parseReport($('ref').value), parseReport($('prob').value));
+    last = renderComparison(result);
+  } catch (error) { last = 'The comparison failed: ' + (error && error.message ? error.message : 'unknown error'); }
+  $('out').textContent = last;
+});
+$('copy').addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(last); $('copy').textContent = 'Copied'; } catch { $('out').focus(); $('copy').textContent = 'Select the text and copy it'; }
+});
+</script>
+</body>
+</html>
