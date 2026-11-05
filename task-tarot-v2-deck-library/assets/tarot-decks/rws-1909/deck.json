@@ -1,0 +1,1051 @@
+{
+ "cardCount": 78,
+ "cards": {
+  "cups-ace": {
+   "aspect": 0.5792,
+   "relation": "identity",
+   "sizes": {
+    "l": 122974,
+    "m": 28370,
+    "t": 7462
+   },
+   "srcFile": "Cups01.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "fd157290a61bd075e837879275b811c86c32d3ea2beadb2b24327d133c5fb5f9",
+   "srcWidth": 1112
+  },
+  "cups-eight": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 93064,
+    "m": 23730,
+    "t": 6726
+   },
+   "srcFile": "Cups08.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "727c07c60753aa7925c9421ca3a93e80eaadd0053018e68c819b2ac5e6562312",
+   "srcWidth": 1114
+  },
+  "cups-five": {
+   "aspect": 0.5839,
+   "relation": "identity",
+   "sizes": {
+    "l": 58538,
+    "m": 18044,
+    "t": 4778
+   },
+   "srcFile": "Cups05.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "07d2354d331f8a9397c407cea0b2bcc1544b134eab526b9262ececb3d0a57166",
+   "srcWidth": 1121
+  },
+  "cups-four": {
+   "aspect": 0.5823,
+   "relation": "identity",
+   "sizes": {
+    "l": 85120,
+    "m": 28940,
+    "t": 8430
+   },
+   "srcFile": "Cups04.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "92097fe69d21dd0a0c9d5ece68ed465fa4a53d5107509cde3689840b67ed3f13",
+   "srcWidth": 1118
+  },
+  "cups-king": {
+   "aspect": 0.5839,
+   "relation": "identity",
+   "sizes": {
+    "l": 117154,
+    "m": 32542,
+    "t": 8218
+   },
+   "srcFile": "Cups14.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "79ae249016aaafb01279007e2da5ad00dffd6dc7d3017526853cfa6efc989372",
+   "srcWidth": 1121
+  },
+  "cups-knight": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 115074,
+    "m": 29022,
+    "t": 7946
+   },
+   "srcFile": "Cups12.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "99a7b7c91da744cb03a3741c4bac674ef91adbb5b22aca53404f3467d1ea8e65",
+   "srcWidth": 1109
+  },
+  "cups-nine": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 97508,
+    "m": 36536,
+    "t": 9570
+   },
+   "srcFile": "Cups09.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "5d0704e0dc1de8ab59da38230b609a5aeeceaf61473ca5271f48049976f3cb6f",
+   "srcWidth": 1114
+  },
+  "cups-page": {
+   "aspect": 0.5807,
+   "relation": "identity",
+   "sizes": {
+    "l": 125844,
+    "m": 25488,
+    "t": 6988
+   },
+   "srcFile": "Cups11.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "c6000e0ec6cf784ec75ac3a9fa8971e9ba56c8072c899cc0d44dece6acafc526",
+   "srcWidth": 1115
+  },
+  "cups-queen": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 107156,
+    "m": 36758,
+    "t": 9088
+   },
+   "srcFile": "Cups13.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "a1732a137bfc441a68703e3c8c14653f22452a287e790b9d5047035afc374b2a",
+   "srcWidth": 1114
+  },
+  "cups-seven": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 93474,
+    "m": 35752,
+    "t": 9130
+   },
+   "srcFile": "Cups07.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "3c9d1d310ca3f4303a2e4beb872d998f7b45fbd26ee361ee48fadb366cf3b3a7",
+   "srcWidth": 1109
+  },
+  "cups-six": {
+   "aspect": 0.5807,
+   "relation": "identity",
+   "sizes": {
+    "l": 134922,
+    "m": 40544,
+    "t": 10088
+   },
+   "srcFile": "Cups06.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "bb6fb5b6de8c22811e0c9057a05e46cd0014984e3d43160844bd5c395e8973bf",
+   "srcWidth": 1115
+  },
+  "cups-ten": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 124592,
+    "m": 28128,
+    "t": 7506
+   },
+   "srcFile": "Cups10.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "ac33d5a07ac63e10301cd632cedc020aca25a0d8a3e64f58fbd9e221b39fa261",
+   "srcWidth": 1109
+  },
+  "cups-three": {
+   "aspect": 0.5821,
+   "relation": "identity",
+   "sizes": {
+    "l": 115400,
+    "m": 37282,
+    "t": 9092
+   },
+   "srcFile": "Cups03.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "25bfd4dbc2917a5a33b34c56579facffca464df0f4b4a0b4f00d9c9e96d9be0e",
+   "srcWidth": 1117
+  },
+  "cups-two": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 112204,
+    "m": 29852,
+    "t": 7980
+   },
+   "srcFile": "Cups02.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "5d1f09a9b69784e6006a9b662496f0664b26b15740062ac2285e77eadf3b36e4",
+   "srcWidth": 1109
+  },
+  "major-chariot": {
+   "aspect": 0.5789,
+   "relation": "identity",
+   "sizes": {
+    "l": 108604,
+    "m": 40394,
+    "t": 10438
+   },
+   "srcFile": "RWS Tarot 07 Chariot.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "3906e01a159d3b7f1696e9094080e0a4ae95b2f4d4ca8b084131aba6ad133dd8",
+   "srcWidth": 1111
+  },
+  "major-death": {
+   "aspect": 0.5789,
+   "relation": "identity",
+   "sizes": {
+    "l": 129130,
+    "m": 41834,
+    "t": 10136
+   },
+   "srcFile": "RWS Tarot 13 Death.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "9e9cdd41a4d975691e79acc2358b45f4f2c58661431c3113a5ccf27477356a66",
+   "srcWidth": 1111
+  },
+  "major-devil": {
+   "aspect": 0.5677,
+   "relation": "identity",
+   "sizes": {
+    "l": 103242,
+    "m": 33132,
+    "t": 8954
+   },
+   "srcFile": "RWS Tarot 15 Devil.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "f8e37102cbf2120270c0ed8c3e193b260d2f79dd5908bc9acbd48e8335083cf8",
+   "srcWidth": 1090
+  },
+  "major-emperor": {
+   "aspect": 0.5821,
+   "relation": "identity",
+   "sizes": {
+    "l": 129678,
+    "m": 42208,
+    "t": 10016
+   },
+   "srcFile": "RWS Tarot 04 Emperor.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "7a800b57c5b7da7b493e6968da31325327134e98083e95ee75b3db6eaef7e868",
+   "srcWidth": 1117
+  },
+  "major-empress": {
+   "aspect": 0.5849,
+   "relation": "identity",
+   "sizes": {
+    "l": 130424,
+    "m": 48292,
+    "t": 11316
+   },
+   "srcFile": "RWS Tarot 03 Empress.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "2f0a9885c4f4e68bbca4cb40d3d5f42d4c7559f914bb5b3765ee429c74c142df",
+   "srcWidth": 1123
+  },
+  "major-fool": {
+   "aspect": 0.5961,
+   "relation": "identity",
+   "sizes": {
+    "l": 91540,
+    "m": 31866,
+    "t": 8608
+   },
+   "srcFile": "RWS Tarot 00 Fool.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "557c6592b73107508eac65ef140d090d2ccd657ac5a2d5d4fe31c6c2ceacbcb5",
+   "srcWidth": 1144
+  },
+  "major-hanged-man": {
+   "aspect": 0.5687,
+   "relation": "identity",
+   "sizes": {
+    "l": 122166,
+    "m": 25106,
+    "t": 6862
+   },
+   "srcFile": "RWS Tarot 12 Hanged Man.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "0eacf7afe48e4b51c5405a8354ecb867a4d8868151137434ef84621e4d56359c",
+   "srcWidth": 1092
+  },
+  "major-hermit": {
+   "aspect": 0.5849,
+   "relation": "identity",
+   "sizes": {
+    "l": 59882,
+    "m": 20966,
+    "t": 5640
+   },
+   "srcFile": "RWS Tarot 09 Hermit.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "0f86ac4560e598ced039665e21023d329e7a7e58872c46b3e9a9d85bb6cb2a50",
+   "srcWidth": 1123
+  },
+  "major-hierophant": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 124594,
+    "m": 44150,
+    "t": 11092
+   },
+   "srcFile": "RWS Tarot 05 Hierophant.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "68faba7f016b2d76b2fc2200f834279a0b08b7228767ae744fcdc70f9402699d",
+   "srcWidth": 1114
+  },
+  "major-high-priestess": {
+   "aspect": 0.5821,
+   "relation": "identity",
+   "sizes": {
+    "l": 110018,
+    "m": 36486,
+    "t": 9648
+   },
+   "srcFile": "RWS Tarot 02 High Priestess.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "0e87b5a22187a299334188c2e8fd178125151f9015c122f6946367489cfd252a",
+   "srcWidth": 1117
+  },
+  "major-judgement": {
+   "aspect": 0.5807,
+   "relation": "identity",
+   "sizes": {
+    "l": 122666,
+    "m": 40544,
+    "t": 11000
+   },
+   "srcFile": "RWS Tarot 20 Judgement.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "1d670d30e651554051f1a04708a11c57583a92a2cc370b8c0fc54fb82f2ffbd3",
+   "srcWidth": 1115
+  },
+  "major-justice": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 122912,
+    "m": 42822,
+    "t": 9984
+   },
+   "srcFile": "RWS Tarot 11 Justice.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "028645f4ed40a82035c410f4b7b5b00adbdcdf1c21ffd706cddeaf9227e0151d",
+   "srcWidth": 1114
+  },
+  "major-lovers": {
+   "aspect": 0.5844,
+   "relation": "identity",
+   "sizes": {
+    "l": 141956,
+    "m": 44368,
+    "t": 11412
+   },
+   "srcFile": "RWS Tarot 06 Lovers.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "5a24e337a146568ebbbfa9783fa451d22c02bccd3cb7fe518afdb3ff396487fe",
+   "srcWidth": 1122
+  },
+  "major-magician": {
+   "aspect": 0.5771,
+   "relation": "identity",
+   "sizes": {
+    "l": 96880,
+    "m": 35776,
+    "t": 8984
+   },
+   "srcFile": "RWS Tarot 01 Magician.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "e0569e468545abfd2987ec0af5d3c51da3a9d478e37077aeaa1d715ddfc9941b",
+   "srcWidth": 1108
+  },
+  "major-moon": {
+   "aspect": 0.5789,
+   "relation": "identity",
+   "sizes": {
+    "l": 100846,
+    "m": 34786,
+    "t": 9490
+   },
+   "srcFile": "RWS Tarot 18 Moon.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "866474dc3de02bf3817495fd75d254dac2b9f36470f2f29ecb54de572f9dc70e",
+   "srcWidth": 1111
+  },
+  "major-star": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 101950,
+    "m": 34302,
+    "t": 9320
+   },
+   "srcFile": "RWS Tarot 17 Star.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "20bb3e04c1655cc318031d94a024d84199cfeae2ca55e80d2d341c2d30435ac7",
+   "srcWidth": 1114
+  },
+  "major-strength": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 93396,
+    "m": 30824,
+    "t": 7646
+   },
+   "srcFile": "RWS Tarot 08 Strength.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "b222f1799b8dc46944d28f6079b1551011691dc439740371126e874fcf0c768f",
+   "srcWidth": 1114
+  },
+  "major-sun": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 126802,
+    "m": 43776,
+    "t": 11720
+   },
+   "srcFile": "RWS Tarot 19 Sun.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "6c21ef99fef3807bafb26cd467464c8efc59e7312a688ae66285968e364c6450",
+   "srcWidth": 1114
+  },
+  "major-temperance": {
+   "aspect": 0.576,
+   "relation": "identity",
+   "sizes": {
+    "l": 142080,
+    "m": 43202,
+    "t": 10810
+   },
+   "srcFile": "RWS Tarot 14 Temperance.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "a306b373f8ff18270a2daabe3d89967eadd428e460c39ed717bda7bd38a1f009",
+   "srcWidth": 1106
+  },
+  "major-tower": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 85614,
+    "m": 30172,
+    "t": 8866
+   },
+   "srcFile": "RWS Tarot 16 Tower.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "ab5ce9bf29f32b9cf61720b375fe35f23ce7e116ee1c648a9bf6832e17241163",
+   "srcWidth": 1109
+  },
+  "major-wheel-of-fortune": {
+   "aspect": 0.575,
+   "relation": "identity",
+   "sizes": {
+    "l": 119900,
+    "m": 37012,
+    "t": 10694
+   },
+   "srcFile": "RWS Tarot 10 Wheel of Fortune.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "2979bea7530572f408739757c87200772f6171a5249684cc9ee2a379108b3657",
+   "srcWidth": 1104
+  },
+  "major-world": {
+   "aspect": 0.5792,
+   "relation": "identity",
+   "sizes": {
+    "l": 121432,
+    "m": 40640,
+    "t": 10904
+   },
+   "srcFile": "RWS Tarot 21 World.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "f866b87a3c4422f96074080024860f46b5b3f456fcad74ca7aefdb5263bf0e69",
+   "srcWidth": 1112
+  },
+  "pentacles-ace": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 108372,
+    "m": 25610,
+    "t": 7000
+   },
+   "srcFile": "Pents01.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "fd6ddf90ead3062dd3696856e9771356dd9a2527048dab19417ee7ad79e28464",
+   "srcWidth": 1109
+  },
+  "pentacles-eight": {
+   "aspect": 0.5818,
+   "relation": "identity",
+   "sizes": {
+    "l": 110352,
+    "m": 24678,
+    "t": 6466
+   },
+   "srcFile": "Pents08.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "13c82cbdec9ce101f157ee502663eb38bbd8117cec5e019b8400474056caebd9",
+   "srcWidth": 1117
+  },
+  "pentacles-five": {
+   "aspect": 0.5792,
+   "relation": "identity",
+   "sizes": {
+    "l": 124466,
+    "m": 48202,
+    "t": 11608
+   },
+   "srcFile": "Pents05.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "5a6705ba00c102c9e66a716b182e195f17c1bcf94a8d1b5163e2ce7195166938",
+   "srcWidth": 1112
+  },
+  "pentacles-four": {
+   "aspect": 0.5781,
+   "relation": "identity",
+   "sizes": {
+    "l": 93670,
+    "m": 18308,
+    "t": 5020
+   },
+   "srcFile": "Pents04.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "37e44050b8ac86dc7db3c1bb00e80154e97986b028a1499504ab89c5612e5989",
+   "srcWidth": 1110
+  },
+  "pentacles-king": {
+   "aspect": 0.5766,
+   "relation": "identity",
+   "sizes": {
+    "l": 107560,
+    "m": 40216,
+    "t": 10324
+   },
+   "srcFile": "Pents14.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "887b31bb3a9213e9f97dd6fd9c0f8b421c24735f3a0efd1d087fadfb600b0020",
+   "srcWidth": 1107
+  },
+  "pentacles-knight": {
+   "aspect": 0.5789,
+   "relation": "identity",
+   "sizes": {
+    "l": 73744,
+    "m": 25940,
+    "t": 7084
+   },
+   "srcFile": "Pents12.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "6a652fbf447b7d0c78145627749c87806d1c356e96e73ca365d2618d9b255e9f",
+   "srcWidth": 1111
+  },
+  "pentacles-nine": {
+   "aspect": 0.5771,
+   "relation": "identity",
+   "sizes": {
+    "l": 104088,
+    "m": 37252,
+    "t": 10148
+   },
+   "srcFile": "Pents09.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "e491630d7291a34266f2d227f4085602cb9a000e31346402773a653e07b48f32",
+   "srcWidth": 1108
+  },
+  "pentacles-page": {
+   "aspect": 0.5792,
+   "relation": "identity",
+   "sizes": {
+    "l": 80466,
+    "m": 27188,
+    "t": 7272
+   },
+   "srcFile": "Pents11.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "d2c3cb2f6a602e62748f873eca72acfab06b64a6de50cf3499e6197d650b6fe9",
+   "srcWidth": 1112
+  },
+  "pentacles-queen": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 140150,
+    "m": 52750,
+    "t": 13136
+   },
+   "srcFile": "Pents13.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "051a9a46a806910754969d806b3cf1e1621d30f51225b0a3db9b5474e222a877",
+   "srcWidth": 1109
+  },
+  "pentacles-seven": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 122998,
+    "m": 29112,
+    "t": 8212
+   },
+   "srcFile": "Pents07.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "78a9d4965ce497192e5186737a44d73b4e94aa8a4092b49b374879ed22b138ab",
+   "srcWidth": 1114
+  },
+  "pentacles-six": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 110684,
+    "m": 27650,
+    "t": 7500
+   },
+   "srcFile": "Pents06.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "d9d67638f7f4075b42b03ee80ca9bf3817d2406cda647618504140b85ab3ca6b",
+   "srcWidth": 1109
+  },
+  "pentacles-ten": {
+   "aspect": 0.5807,
+   "relation": "identity",
+   "sizes": {
+    "l": 133748,
+    "m": 46108,
+    "t": 11650
+   },
+   "srcFile": "Pents10.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "e14d5029ff2151a5ef53218c853382828dd0940bfd3a608d72ec59a967f97809",
+   "srcWidth": 1115
+  },
+  "pentacles-three": {
+   "aspect": 0.5821,
+   "relation": "identity",
+   "sizes": {
+    "l": 115484,
+    "m": 37724,
+    "t": 10470
+   },
+   "srcFile": "Pents03.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "a8d826b099c0920329be52de5b96c0b2e5ddcfb45b8d109490e9ab74ae6f9eaa",
+   "srcWidth": 1117
+  },
+  "pentacles-two": {
+   "aspect": 0.5792,
+   "relation": "identity",
+   "sizes": {
+    "l": 105354,
+    "m": 22080,
+    "t": 6070
+   },
+   "srcFile": "Pents02.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "1ee94470d0a0d53f867b5f6616bfe9e672b5693ba7c1d0a0c29303b2a1c08a88",
+   "srcWidth": 1112
+  },
+  "swords-ace": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 103360,
+    "m": 22074,
+    "t": 6352
+   },
+   "srcFile": "Swords01.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "32f0f932346a25b6ec3753ff95d3e4a7481cb5c3582205ba76c53356a496f15a",
+   "srcWidth": 1109
+  },
+  "swords-eight": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 115314,
+    "m": 30194,
+    "t": 7754
+   },
+   "srcFile": "Swords08.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "019acbe3faff292c48c2744c42df052d7c7440a896f1cac42930e8c727d983b6",
+   "srcWidth": 1114
+  },
+  "swords-five": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 108642,
+    "m": 31384,
+    "t": 8794
+   },
+   "srcFile": "Swords05.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "e4fc379d7ce3f7675f474ec9b3c2c8e4be7bdc0af2f2186eb2e2de4643b0a0bf",
+   "srcWidth": 1109
+  },
+  "swords-four": {
+   "aspect": 0.5821,
+   "relation": "identity",
+   "sizes": {
+    "l": 97146,
+    "m": 26354,
+    "t": 6886
+   },
+   "srcFile": "Swords04.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "d4f9dad59b25daf3c9e98e50107dd692e9682f058cdc8424ce61fd448e941a78",
+   "srcWidth": 1117
+  },
+  "swords-king": {
+   "aspect": 0.5821,
+   "relation": "identity",
+   "sizes": {
+    "l": 118778,
+    "m": 31624,
+    "t": 8872
+   },
+   "srcFile": "Swords14.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "5307da08322c8ccf2bc748aec5fe919e16849568fda3986225a921bf2cac9cee",
+   "srcWidth": 1117
+  },
+  "swords-knight": {
+   "aspect": 0.5792,
+   "relation": "identity",
+   "sizes": {
+    "l": 103024,
+    "m": 34120,
+    "t": 9676
+   },
+   "srcFile": "Swords12.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "b38c1618eb6b5eca33d5bfebfddf8739773fb4ec8918a8946b4df2790d95db4e",
+   "srcWidth": 1112
+  },
+  "swords-nine": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 93004,
+    "m": 30802,
+    "t": 7602
+   },
+   "srcFile": "Swords09.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "b592a2ebe7fca2b648c12d42ec1d5edd4da60d60b0ec7e548e7115c977c485fb",
+   "srcWidth": 1114
+  },
+  "swords-page": {
+   "aspect": 0.5771,
+   "relation": "identity",
+   "sizes": {
+    "l": 102478,
+    "m": 28968,
+    "t": 8270
+   },
+   "srcFile": "Swords11.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "ac69cec7c4b763fe229b3bc43214d5c81e573abe0584a13691970ab65be351ad",
+   "srcWidth": 1108
+  },
+  "swords-queen": {
+   "aspect": 0.575,
+   "relation": "identity",
+   "sizes": {
+    "l": 90896,
+    "m": 29678,
+    "t": 8224
+   },
+   "srcFile": "Swords13.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "55854543540d12f9c201197537f4521b22379b84d0955149621755601ce6da90",
+   "srcWidth": 1104
+  },
+  "swords-seven": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 85426,
+    "m": 26860,
+    "t": 7136
+   },
+   "srcFile": "Swords07.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "6204a31b5949937c95ea47ed47bae0cdd86ba112cb0c933935efbfc294033ea6",
+   "srcWidth": 1114
+  },
+  "swords-six": {
+   "aspect": 0.5789,
+   "relation": "identity",
+   "sizes": {
+    "l": 118304,
+    "m": 26414,
+    "t": 6804
+   },
+   "srcFile": "Swords06.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "25279d7133301f59748f9ec0c6517a56fc4b8f76477ecfb4495f039adbc9aed5",
+   "srcWidth": 1111
+  },
+  "swords-ten": {
+   "aspect": 0.5766,
+   "relation": "identity",
+   "sizes": {
+    "l": 83640,
+    "m": 29274,
+    "t": 7642
+   },
+   "srcFile": "Swords10.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "10d0b161d115dc340c6c54a274a9f0a21547584b9bd20dbd61fb12e78885043f",
+   "srcWidth": 1107
+  },
+  "swords-three": {
+   "aspect": 0.5745,
+   "relation": "identity",
+   "sizes": {
+    "l": 68912,
+    "m": 18906,
+    "t": 5830
+   },
+   "srcFile": "Swords03.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "4fdf7db3e7611561831af32b5c886f9862c7d90a851965cddf71298047da1dee",
+   "srcWidth": 1103
+  },
+  "swords-two": {
+   "aspect": 0.5839,
+   "relation": "identity",
+   "sizes": {
+    "l": 83462,
+    "m": 20568,
+    "t": 5972
+   },
+   "srcFile": "Swords02.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "a44b7e2b454db3dc1ff42f70107fb15750babf659f5750892de4b5be721ec380",
+   "srcWidth": 1121
+  },
+  "wands-ace": {
+   "aspect": 0.576,
+   "relation": "identity",
+   "sizes": {
+    "l": 103972,
+    "m": 21230,
+    "t": 6222
+   },
+   "srcFile": "Wands01.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "c29a4231878072d66be3aa344b348ea77cf12617571db4836a270730ae5a04e0",
+   "srcWidth": 1106
+  },
+  "wands-eight": {
+   "aspect": 0.5807,
+   "relation": "identity",
+   "sizes": {
+    "l": 72748,
+    "m": 26206,
+    "t": 7106
+   },
+   "srcFile": "Wands08.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "fbf01153074154c6b0e130e0690e00320e9293daaf9c84fe4a37804f02145cd6",
+   "srcWidth": 1115
+  },
+  "wands-five": {
+   "aspect": 0.5771,
+   "relation": "identity",
+   "sizes": {
+    "l": 96274,
+    "m": 31742,
+    "t": 8502
+   },
+   "srcFile": "Wands05.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "6298f82e6ce5e7524041bb608852471b03e29d528f6a5b52b2b44a8ff1f06bba",
+   "srcWidth": 1108
+  },
+  "wands-four": {
+   "aspect": 0.5771,
+   "relation": "identity",
+   "sizes": {
+    "l": 90222,
+    "m": 30458,
+    "t": 7652
+   },
+   "srcFile": "Wands04.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "9850a241100dd084bacab39a8e87baaa13d1de1a590dc0dde013b92aa783af7e",
+   "srcWidth": 1108
+  },
+  "wands-king": {
+   "aspect": 0.575,
+   "relation": "identity",
+   "sizes": {
+    "l": 144148,
+    "m": 39406,
+    "t": 9872
+   },
+   "srcFile": "Wands14.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "671c7c53329fa99e309f101a2ee093503a5d3bad137cb626a588dc74f4f0506f",
+   "srcWidth": 1104
+  },
+  "wands-knight": {
+   "aspect": 0.5807,
+   "relation": "identity",
+   "sizes": {
+    "l": 134018,
+    "m": 33188,
+    "t": 9178
+   },
+   "srcFile": "Wands12.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "00dd859cf067753c5ed009ac0ab8a0673cb8e5bdf5677fb3c7d4b04c93c0e025",
+   "srcWidth": 1115
+  },
+  "wands-nine": {
+   "aspect": 0.5805,
+   "relation": "identity",
+   "sizes": {
+    "l": 109434,
+    "m": 33128,
+    "t": 8172
+   },
+   "srcFile": "Wands09.jpg",
+   "srcHeight": 1919,
+   "srcSha256": "f0edfe460b1ba3fdd2cb0d0e82786a84bcdcaf97bb2e1a2ffaf4c82ed235b469",
+   "srcWidth": 1114
+  },
+  "wands-page": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 118458,
+    "m": 28244,
+    "t": 7380
+   },
+   "srcFile": "Wands11.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "ecb79ab9035c43d322cbef211e8028fc175e220a764db7fcb566c4e44d1842bb",
+   "srcWidth": 1109
+  },
+  "wands-queen": {
+   "aspect": 0.5823,
+   "relation": "identity",
+   "sizes": {
+    "l": 135080,
+    "m": 41590,
+    "t": 9828
+   },
+   "srcFile": "Wands13.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "f1646c86efe388dfff3d4a1fc8e5a5c7bb60a5605d3e4b67c1157216c773202d",
+   "srcWidth": 1118
+  },
+  "wands-seven": {
+   "aspect": 0.5776,
+   "relation": "identity",
+   "sizes": {
+    "l": 75434,
+    "m": 25600,
+    "t": 7136
+   },
+   "srcFile": "Wands07.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "0117736a1c9d543960bb94c73d20a587e9ec877dfc2120b7d5ee0255c40dd731",
+   "srcWidth": 1109
+  },
+  "wands-six": {
+   "aspect": 0.5823,
+   "relation": "identity",
+   "sizes": {
+    "l": 105566,
+    "m": 31712,
+    "t": 8626
+   },
+   "srcFile": "Wands06.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "249a1eaa2de24dc9c1095e953b9577ca613fcda4b4b884dab2a1964c686dad72",
+   "srcWidth": 1118
+  },
+  "wands-ten": {
+   "aspect": 0.5734,
+   "relation": "identity",
+   "sizes": {
+    "l": 94084,
+    "m": 28856,
+    "t": 7328
+   },
+   "srcFile": "Wands10.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "64c10fe7ba527498547bb3bf85a4a5c5fc687ba2209b8d38ffe5722d25810685",
+   "srcWidth": 1101
+  },
+  "wands-three": {
+   "aspect": 0.5745,
+   "relation": "identity",
+   "sizes": {
+    "l": 120500,
+    "m": 29432,
+    "t": 7180
+   },
+   "srcFile": "Wands03.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "1177316634bf3990c95ccb908b7e5a6759ec0356039d896e6ee0bbb8796e958a",
+   "srcWidth": 1103
+  },
+  "wands-two": {
+   "aspect": 0.5807,
+   "relation": "identity",
+   "sizes": {
+    "l": 104096,
+    "m": 25560,
+    "t": 6774
+   },
+   "srcFile": "Wands02.jpg",
+   "srcHeight": 1920,
+   "srcSha256": "b715689f6097b32884678d52f946df0fafdd225ed8ead3979307f455a88e8e80",
+   "srcWidth": 1115
+  }
+ },
+ "cover": {
+  "aspect": 0.5961,
+  "bytes": 27504,
+  "srcFile": "RWS Tarot 00 Fool.jpg"
+ },
+ "deckId": "rws-1909",
+ "schema": 1,
+ "tiers": {
+  "l": {
+   "blur": 0.6,
+   "minSourceWidth": 640,
+   "quality": 56,
+   "width": 760
+  },
+  "m": {
+   "blur": 0.6,
+   "quality": 58,
+   "width": 400
+  },
+  "t": {
+   "blur": 0.4,
+   "quality": 55,
+   "width": 150
+  }
+ },
+ "totals": {
+  "all": 11619104,
+  "cover": 27504,
+  "l": 8396292,
+  "m": 2530036,
+  "t": 665272
+ }
+}

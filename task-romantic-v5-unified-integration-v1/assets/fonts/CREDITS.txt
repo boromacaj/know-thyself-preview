@@ -1,0 +1,3 @@
+Barlow (Light Italic, Medium Italic) - the application's soft, slanted interface type.
+Designer: Jeremy Tribby. Source: https://github.com/google/fonts/tree/main/ofl/barlow
+Licence: SIL Open Font License 1.1 (https://openfontlicense.org). The files are used unmodified.

@@ -1,0 +1,41 @@
+export const BAZI_ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
+export const HEAVENLY_STEMS = [
+    { index: 0, name: 'Jia', character: '甲', element: 'Wood', polarity: 'Yang' },
+    { index: 1, name: 'Yi', character: '乙', element: 'Wood', polarity: 'Yin' },
+    { index: 2, name: 'Bing', character: '丙', element: 'Fire', polarity: 'Yang' },
+    { index: 3, name: 'Ding', character: '丁', element: 'Fire', polarity: 'Yin' },
+    { index: 4, name: 'Wu', character: '戊', element: 'Earth', polarity: 'Yang' },
+    { index: 5, name: 'Ji', character: '己', element: 'Earth', polarity: 'Yin' },
+    { index: 6, name: 'Geng', character: '庚', element: 'Metal', polarity: 'Yang' },
+    { index: 7, name: 'Xin', character: '辛', element: 'Metal', polarity: 'Yin' },
+    { index: 8, name: 'Ren', character: '壬', element: 'Water', polarity: 'Yang' },
+    { index: 9, name: 'Gui', character: '癸', element: 'Water', polarity: 'Yin' },
+];
+export const EARTHLY_BRANCHES = [
+    { index: 0, name: 'Zi', character: '子', animal: 'Rat', element: 'Water', polarity: 'Yang' },
+    { index: 1, name: 'Chou', character: '丑', animal: 'Ox', element: 'Earth', polarity: 'Yin' },
+    { index: 2, name: 'Yin', character: '寅', animal: 'Tiger', element: 'Wood', polarity: 'Yang' },
+    { index: 3, name: 'Mao', character: '卯', animal: 'Rabbit', element: 'Wood', polarity: 'Yin' },
+    { index: 4, name: 'Chen', character: '辰', animal: 'Dragon', element: 'Earth', polarity: 'Yang' },
+    { index: 5, name: 'Si', character: '巳', animal: 'Snake', element: 'Fire', polarity: 'Yin' },
+    { index: 6, name: 'Wu', character: '午', animal: 'Horse', element: 'Fire', polarity: 'Yang' },
+    { index: 7, name: 'Wei', character: '未', animal: 'Goat', element: 'Earth', polarity: 'Yin' },
+    { index: 8, name: 'Shen', character: '申', animal: 'Monkey', element: 'Metal', polarity: 'Yang' },
+    { index: 9, name: 'You', character: '酉', animal: 'Rooster', element: 'Metal', polarity: 'Yin' },
+    { index: 10, name: 'Xu', character: '戌', animal: 'Dog', element: 'Earth', polarity: 'Yang' },
+    { index: 11, name: 'Hai', character: '亥', animal: 'Pig', element: 'Water', polarity: 'Yin' },
+];
+export const SOLAR_MONTH_BOUNDARIES = [
+    { monthIndex: 0, name: 'Li Chun', character: '立春', longitude: 315, branchIndex: 2 },
+    { monthIndex: 1, name: 'Jing Zhe', character: '驚蟄', longitude: 345, branchIndex: 3 },
+    { monthIndex: 2, name: 'Qing Ming', character: '清明', longitude: 15, branchIndex: 4 },
+    { monthIndex: 3, name: 'Li Xia', character: '立夏', longitude: 45, branchIndex: 5 },
+    { monthIndex: 4, name: 'Mang Zhong', character: '芒種', longitude: 75, branchIndex: 6 },
+    { monthIndex: 5, name: 'Xiao Shu', character: '小暑', longitude: 105, branchIndex: 7 },
+    { monthIndex: 6, name: 'Li Qiu', character: '立秋', longitude: 135, branchIndex: 8 },
+    { monthIndex: 7, name: 'Bai Lu', character: '白露', longitude: 165, branchIndex: 9 },
+    { monthIndex: 8, name: 'Han Lu', character: '寒露', longitude: 195, branchIndex: 10 },
+    { monthIndex: 9, name: 'Li Dong', character: '立冬', longitude: 225, branchIndex: 11 },
+    { monthIndex: 10, name: 'Da Xue', character: '大雪', longitude: 255, branchIndex: 0 },
+    { monthIndex: 11, name: 'Xiao Han', character: '小寒', longitude: 285, branchIndex: 1 },
+];

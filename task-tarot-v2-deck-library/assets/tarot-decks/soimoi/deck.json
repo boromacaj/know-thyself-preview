@@ -1,0 +1,1048 @@
+{
+ "cardCount": 78,
+ "cards": {
+  "cups-ace": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 87880,
+    "m": 24822,
+    "t": 3946
+   },
+   "srcFile": "Cups01.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "dfe7f736fd52b656a69ac8666cddda935bc67a047aa17b01b35fa3b5786d2e69",
+   "srcWidth": 1024
+  },
+  "cups-eight": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 28856,
+    "m": 11912,
+    "t": 2600
+   },
+   "srcFile": "Cups08.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "e6d8e0739b2bcf0a6d299320041a35417255c11d4021e47ab64907291f547352",
+   "srcWidth": 832
+  },
+  "cups-five": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 51384,
+    "m": 17758,
+    "t": 3148
+   },
+   "srcFile": "Cups05.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "a3ae01196fb80b96f252b894fa60346a459e332a587cf8bd81f9fb9b4ad98ef5",
+   "srcWidth": 1024
+  },
+  "cups-four": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 46646,
+    "m": 12730,
+    "t": 2414
+   },
+   "srcFile": "Cups04.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "dffb4416c8fbb67478878ea4bc5ddeddc67b86837c1d6608934cebe12a98c877",
+   "srcWidth": 832
+  },
+  "cups-king": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 66702,
+    "m": 17846,
+    "t": 2898
+   },
+   "srcFile": "Cups14.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "b8c869673d174aaded364ca63a196cb8cbe448a94371ff911e7a3c465433264a",
+   "srcWidth": 1024
+  },
+  "cups-knight": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 138000,
+    "m": 39208,
+    "t": 6348
+   },
+   "srcFile": "Cups12.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "5c7fd0614e5c65f5c3a16df63a29f62224bffbb209aeef74ca1942958bf9d991",
+   "srcWidth": 1024
+  },
+  "cups-nine": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 47770,
+    "m": 21158,
+    "t": 3960
+   },
+   "srcFile": "Cups09.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "434be094a50da6608710db7e9a3b349bed666251f603259624836511854a9489",
+   "srcWidth": 1024
+  },
+  "cups-page": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 49284,
+    "m": 18218,
+    "t": 3532
+   },
+   "srcFile": "Cups11.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "71dabb46bc85f28550f405e2ecc16c5fc4eec09e7fc49c15dc4e005dbb26c020",
+   "srcWidth": 1024
+  },
+  "cups-queen": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 168270,
+    "m": 44856,
+    "t": 6126
+   },
+   "srcFile": "Cups13.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "6df4aa97d3fc8a3fc2df08de208b5fb9bf908c2551502ad591276d4b86f47685",
+   "srcWidth": 1024
+  },
+  "cups-seven": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 87780,
+    "m": 31516,
+    "t": 5974
+   },
+   "srcFile": "Cups07.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "30c5f473a1064c3e63f4ec14c8a822be1780e74a4dc77f215f526ef462559de7",
+   "srcWidth": 1024
+  },
+  "cups-six": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 90976,
+    "m": 29352,
+    "t": 4976
+   },
+   "srcFile": "Cups06.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "0e3ea0f56d538122f62dbb41d178aa467420b010230f41fd4bb93e03287b001a",
+   "srcWidth": 832
+  },
+  "cups-ten": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 123750,
+    "m": 40192,
+    "t": 6316
+   },
+   "srcFile": "Cups10.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "4eb6f2ad1e5682adf47908ffc8eec16e4da9027a6054c0c560786ce1bcd4921b",
+   "srcWidth": 1024
+  },
+  "cups-three": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 60554,
+    "m": 25704,
+    "t": 5474
+   },
+   "srcFile": "Cups03.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "68e16b2693d34a931f5f2dfe31718915f8333c112d44aebc9a2ab78172207f24",
+   "srcWidth": 1024
+  },
+  "cups-two": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 90318,
+    "m": 24452,
+    "t": 4648
+   },
+   "srcFile": "Cups02.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "e56c294c523064dd254674d107bd43751f1157e628bce25ffe8eb1dcdbd6b30e",
+   "srcWidth": 1024
+  },
+  "major-chariot": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 49874,
+    "m": 20298,
+    "t": 3774
+   },
+   "srcFile": "07_Chariot.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "408d741dec13cf0c49f6421f92d6c2f56e844a82c94604774e7f221ce3e527e1",
+   "srcWidth": 1024
+  },
+  "major-death": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 81148,
+    "m": 23424,
+    "t": 3964
+   },
+   "srcFile": "13_Death.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "91cfff7aa28e70560ce1a741e422ec526decdd5049bab6ed92028dde977900ed",
+   "srcWidth": 1024
+  },
+  "major-devil": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 58198,
+    "m": 23778,
+    "t": 3900
+   },
+   "srcFile": "15_Devil.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "959fa76c4a707bfa2f8792db83c39edd1bb745c4cad4dffadb4a25ac3a51e285",
+   "srcWidth": 1024
+  },
+  "major-emperor": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 32292,
+    "m": 14762,
+    "t": 3136
+   },
+   "srcFile": "04_Emperor.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "08d6689b39dbfe5e60af09876ce5ba5a92fc7ddfe92478a0fbe2d58deb5b637b",
+   "srcWidth": 1024
+  },
+  "major-empress": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 32502,
+    "m": 15394,
+    "t": 3614
+   },
+   "srcFile": "03_Empress.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "43d74cba3b1fcef96e698bb728c37f98fa5954cde4ef3ea6e47fd2b6ef649051",
+   "srcWidth": 1024
+  },
+  "major-fool": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 27504,
+    "m": 13602,
+    "t": 3500
+   },
+   "srcFile": "00_Fool.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "38864892a2903561d1fd8493de7d8cef340527e7f4082bd50ee00776c57ffc92",
+   "srcWidth": 1024
+  },
+  "major-hanged-man": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 36640,
+    "m": 17668,
+    "t": 3434
+   },
+   "srcFile": "12_Hanged_Man.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "9e7b4d0a880323fe556db69aa5e7963d8882b0884d6ae757ddd3116888d14804",
+   "srcWidth": 1024
+  },
+  "major-hermit": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 31192,
+    "m": 11498,
+    "t": 2060
+   },
+   "srcFile": "09_Hermit.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "e1e610c0caf9ea641df2bf47387706ad92bdf782eb3a749f54cdb2a5aaad9029",
+   "srcWidth": 1024
+  },
+  "major-hierophant": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 56848,
+    "m": 22324,
+    "t": 3790
+   },
+   "srcFile": "05_Hierophant.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "1b3743e8eeade2318eb96fb07a8bc3305e7122cda88d703467cb8d88670b378f",
+   "srcWidth": 1024
+  },
+  "major-high-priestess": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 65658,
+    "m": 20348,
+    "t": 3678
+   },
+   "srcFile": "02_High_Priestess.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "5c80bfdbd0e803012f62b1088b03c886da883bc20e53d746edef2b3f4022a781",
+   "srcWidth": 1024
+  },
+  "major-judgement": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 109572,
+    "m": 27192,
+    "t": 4942
+   },
+   "srcFile": "20_Judgement.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "0eb577a93029971b4a2f635c97cf6be98c98b5f5963495c374279e3d4a9618dc",
+   "srcWidth": 1024
+  },
+  "major-justice": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 38216,
+    "m": 16122,
+    "t": 3264
+   },
+   "srcFile": "11_Justice.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "2ff7f70f81d4add80b0efbf440f1dbe498229df7b9867e30c5da0a6897b67015",
+   "srcWidth": 1024
+  },
+  "major-lovers": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 57688,
+    "m": 24068,
+    "t": 5162
+   },
+   "srcFile": "06_Lovers.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "019548e11242624c5dcd5a6a2ccc35e733424560517196e4e96bd8b7144bf9f8",
+   "srcWidth": 1024
+  },
+  "major-magician": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 136332,
+    "m": 33144,
+    "t": 5794
+   },
+   "srcFile": "01_Magician.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "239bf764d62dd34de8a6d657af6d745376145e845ba521e86a57ae9a0136f9eb",
+   "srcWidth": 1024
+  },
+  "major-moon": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 47444,
+    "m": 18992,
+    "t": 3264
+   },
+   "srcFile": "18_Moon.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "18dd79995de85872d6d3a08b30851c426b2b1bda9155f8b8d6f2fc3f3f140f59",
+   "srcWidth": 1024
+  },
+  "major-star": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 44632,
+    "m": 18122,
+    "t": 3416
+   },
+   "srcFile": "17_Star.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "3989bc8fe67c50a385e0f4290e5c62c6b50d03524766777746fae37836ffbcee",
+   "srcWidth": 1024
+  },
+  "major-strength": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 55210,
+    "m": 19638,
+    "t": 3878
+   },
+   "srcFile": "08_Strength.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "f3e1ef9ea844ac61a00f42004e6f56be32517c7a8f07e2d12181e13054ce9189",
+   "srcWidth": 1024
+  },
+  "major-sun": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 93058,
+    "m": 30518,
+    "t": 5916
+   },
+   "srcFile": "19_Sun.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "fbe6be99ec5e93f56871ecc72e0d3ac576ff9e02ab7ea40a23af4b058844e49f",
+   "srcWidth": 1024
+  },
+  "major-temperance": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 82390,
+    "m": 31284,
+    "t": 5908
+   },
+   "srcFile": "14_Temperance.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "cd71e18dc60b39dfdffc54129f33a883c36d40e539c7164f3525ba40dea48616",
+   "srcWidth": 1024
+  },
+  "major-tower": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 64300,
+    "m": 23546,
+    "t": 3596
+   },
+   "srcFile": "16_Tower.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "f50f6a97bf3ea9326e1a3474b0fb2a142b73b0d2d252da819d1ddd0bc94ac6c5",
+   "srcWidth": 1024
+  },
+  "major-wheel-of-fortune": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 54926,
+    "m": 21560,
+    "t": 4316
+   },
+   "srcFile": "10_Wheel_of_Fortune.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "45d99642dd3e380fe5ccffec04e547a8ef0ac4f58293ed744eaa60dcdd53bb26",
+   "srcWidth": 1024
+  },
+  "major-world": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 138148,
+    "m": 37408,
+    "t": 6000
+   },
+   "srcFile": "21_World.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "a2330afa734046035b003ecce1c46846957f868b43c1c1eeeacb65d4023f562c",
+   "srcWidth": 1024
+  },
+  "pentacles-ace": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 73396,
+    "m": 23320,
+    "t": 4570
+   },
+   "srcFile": "Pents01.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "560b5834f01b7507a7a099260cc075249f1bb575d3d4ac8c273b3435b44979a8",
+   "srcWidth": 1024
+  },
+  "pentacles-eight": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 51022,
+    "m": 21692,
+    "t": 4160
+   },
+   "srcFile": "Pents08.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "860a37afa39fde4a543cfc6ba25cf3032ade2babf79bac377fbd8ab90bc8ad38",
+   "srcWidth": 1024
+  },
+  "pentacles-five": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 33854,
+    "m": 13868,
+    "t": 3102
+   },
+   "srcFile": "Pents05.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "d506eb95c05645d0acd13485cb32abf649ca6ee7d4a32b431b19c2db5d32b97c",
+   "srcWidth": 832
+  },
+  "pentacles-four": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 62682,
+    "m": 23466,
+    "t": 4364
+   },
+   "srcFile": "Pents04.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "e670524e3cb87b8687f0296c1d90bc52c87fcb02b50ffc66777b4fcf9b752c48",
+   "srcWidth": 1024
+  },
+  "pentacles-king": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 167042,
+    "m": 44544,
+    "t": 6236
+   },
+   "srcFile": "Pents14.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "7b801be1b7f55f4ffb8967eed3672953c90a1f4ef6a0a64b68402c1c43432111",
+   "srcWidth": 1024
+  },
+  "pentacles-knight": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 101736,
+    "m": 24378,
+    "t": 4556
+   },
+   "srcFile": "Pents12.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "f2d4ee48ba634168e85e96fc77e28fcca6e7192cb7b4f130db38294164ce66f2",
+   "srcWidth": 1024
+  },
+  "pentacles-nine": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 57754,
+    "m": 23178,
+    "t": 4786
+   },
+   "srcFile": "Pents09.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "5e8967da8a57f60dfbf9ccea85d475dbfbd33dff637d392f17659eabe6796902",
+   "srcWidth": 1024
+  },
+  "pentacles-page": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 100792,
+    "m": 33722,
+    "t": 5882
+   },
+   "srcFile": "Pents11.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "e4f0a845ec8696245f54bbe33521cc9c946a95606d3fd79c28cc6a5f72395b5f",
+   "srcWidth": 1024
+  },
+  "pentacles-queen": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 68138,
+    "m": 21224,
+    "t": 3772
+   },
+   "srcFile": "Pents13.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "7da43fa6aeaf9451f3a11049538d8b5729bf1565e1e7112af33fcb45cdf72039",
+   "srcWidth": 832
+  },
+  "pentacles-seven": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 54542,
+    "m": 23492,
+    "t": 4452
+   },
+   "srcFile": "Pents07.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "601998d918cb14c8279a51e13ab09c329f81273deee16de5978ba4eece578433",
+   "srcWidth": 832
+  },
+  "pentacles-six": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 52988,
+    "m": 20452,
+    "t": 4070
+   },
+   "srcFile": "Pents06.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "9cae73a045908b204da0d86021655eef59f597c6e82459098079ff760aa53aa9",
+   "srcWidth": 1024
+  },
+  "pentacles-ten": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 84700,
+    "m": 27650,
+    "t": 5322
+   },
+   "srcFile": "Pents10.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "4300f5f35f474cbfb298033fa2d38ac8389a87814da4383ef8cc21edeec192c2",
+   "srcWidth": 1024
+  },
+  "pentacles-three": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 51864,
+    "m": 23424,
+    "t": 4664
+   },
+   "srcFile": "Pents03.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "6523998c0b31b805c4c7baee64111d57a67e4f4538a5a3d31df9b642c72da5e2",
+   "srcWidth": 1024
+  },
+  "pentacles-two": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 48050,
+    "m": 19056,
+    "t": 4142
+   },
+   "srcFile": "Pents02.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "d486697e28d6a66c2b7945b40845dd4f02eac4d3ca23adc08eac05a5405ec056",
+   "srcWidth": 1024
+  },
+  "swords-ace": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 111494,
+    "m": 31648,
+    "t": 5606
+   },
+   "srcFile": "Swords01.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "50a005a44a4b64c23356e3b092881eb3ee523c52ac67e5e991532321831f5ceb",
+   "srcWidth": 1024
+  },
+  "swords-eight": {
+   "aspect": 0.6664,
+   "relation": "identity",
+   "sizes": {
+    "l": 28864,
+    "m": 12752,
+    "t": 2524
+   },
+   "srcFile": "Swords08.jpg",
+   "srcHeight": 1280,
+   "srcSha256": "4afcb05c2aa99579f969f1368472a1376311a9784f83d57deda4e243979a9007",
+   "srcWidth": 853
+  },
+  "swords-five": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 57188,
+    "m": 14944,
+    "t": 2972
+   },
+   "srcFile": "Swords05.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "6bfddfa473042d0a5ce82b7ec9341dea6e8a92ba5e358ed46a140569e72fee93",
+   "srcWidth": 1024
+  },
+  "swords-four": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 42336,
+    "m": 16130,
+    "t": 3218
+   },
+   "srcFile": "Swords04.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "046b0edb2f77aee7fbe3702a165053a9b061694b731970f9e21c33dc261f23c8",
+   "srcWidth": 1024
+  },
+  "swords-king": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 128296,
+    "m": 43844,
+    "t": 7346
+   },
+   "srcFile": "Swords14.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "018f5fddd0b9f1da106ed763346803b1c045b52212550b72f3b7a8be79b025b6",
+   "srcWidth": 1024
+  },
+  "swords-knight": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 120204,
+    "m": 40660,
+    "t": 7242
+   },
+   "srcFile": "Swords12.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "3f1584a49a59f4fab79ee51260d83318bf26182a60c375eb83d46977f2cfb1aa",
+   "srcWidth": 1024
+  },
+  "swords-nine": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 43940,
+    "m": 17690,
+    "t": 3296
+   },
+   "srcFile": "Swords09.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "1b66b71230fb950e4523c5f0034db923a8361a3d68997675fd6be6287cc053ae",
+   "srcWidth": 832
+  },
+  "swords-page": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 97988,
+    "m": 32940,
+    "t": 5332
+   },
+   "srcFile": "Swords11.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "e1738886b91a56f67e03040b67223c3568d9cae25bedca59ada032b7a1cd642f",
+   "srcWidth": 1024
+  },
+  "swords-queen": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 133532,
+    "m": 37878,
+    "t": 6332
+   },
+   "srcFile": "Swords13.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "de00c1508bd956ea793f9f755069d8ba83f8eebfe45f5f6a845ccabea56d04e8",
+   "srcWidth": 1024
+  },
+  "swords-seven": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 74216,
+    "m": 20374,
+    "t": 3792
+   },
+   "srcFile": "Swords07.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "3cf7a752e0eb3066383dab8b7fb9832e8f6f6d888c1f9487193e4b565cd8955b",
+   "srcWidth": 1024
+  },
+  "swords-six": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 28038,
+    "m": 10896,
+    "t": 2194
+   },
+   "srcFile": "Swords06.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "ad0b0bbeabb72daa14505e60a7fb80eb78d149ae7c07a034f705374cfac5362f",
+   "srcWidth": 832
+  },
+  "swords-ten": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 134492,
+    "m": 29976,
+    "t": 4634
+   },
+   "srcFile": "Swords10.jpg",
+   "srcHeight": 1248,
+   "srcSha256": "bdc311f5f3b70f5cc4fff2b71e1983a63483ea7b7ed2bc59a4b2c369efd757fa",
+   "srcWidth": 832
+  },
+  "swords-three": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 35464,
+    "m": 17050,
+    "t": 3356
+   },
+   "srcFile": "Swords03.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "5756282239179ad245218f78220a2853daaacf00b09b17cbc413f129184a5148",
+   "srcWidth": 1024
+  },
+  "swords-two": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 34578,
+    "m": 15402,
+    "t": 3468
+   },
+   "srcFile": "Swords02.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "f6e78610f2f762da75e3e1911077954a1f8a3bb602665e309faefa12c6ef5114",
+   "srcWidth": 1024
+  },
+  "wands-ace": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 50070,
+    "m": 16492,
+    "t": 3340
+   },
+   "srcFile": "Wands01.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "16721e5abcecc8b70c9ee3836e4a60de2046fc6cfb0e7aa151176f811e0a647c",
+   "srcWidth": 1024
+  },
+  "wands-eight": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 96176,
+    "m": 24732,
+    "t": 4994
+   },
+   "srcFile": "Wands08.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "570e1a03bd34f6a6ee901901bff8f81e2130bc7362d8ac93ed5c8f1b5692de9f",
+   "srcWidth": 1024
+  },
+  "wands-five": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 37208,
+    "m": 16888,
+    "t": 3198
+   },
+   "srcFile": "Wands05.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "9ff99618f9819ebadb97434d2164ecc2c7c4d9b632b01618b74775ad4be940b7",
+   "srcWidth": 1024
+  },
+  "wands-four": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 123424,
+    "m": 20780,
+    "t": 3818
+   },
+   "srcFile": "Wands04.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "3a2c8b2111d909f23d2e6be97d85659431aafe1147e59608095cc4f928180bf0",
+   "srcWidth": 1024
+  },
+  "wands-king": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 77172,
+    "m": 25336,
+    "t": 4698
+   },
+   "srcFile": "Wands14.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "0dc51c4bda0dfb2dcef51591e118046ec8afe8b2970c79c7d768ce63d7cf7567",
+   "srcWidth": 1024
+  },
+  "wands-knight": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 131560,
+    "m": 38790,
+    "t": 6868
+   },
+   "srcFile": "Wands12.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "1756b3067dc29d970b7a601a34354dccb0cd2d1c8a2f891b1b61b510e36cfdcc",
+   "srcWidth": 1024
+  },
+  "wands-nine": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 92702,
+    "m": 25128,
+    "t": 4044
+   },
+   "srcFile": "Wands09.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "c9a184b6f9001698aabf48eddf6195ecd2622f99ed2b40907d4b719ab7ccd8a5",
+   "srcWidth": 1024
+  },
+  "wands-page": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 81988,
+    "m": 26562,
+    "t": 4706
+   },
+   "srcFile": "Wands11.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "7a4a084beaf34b9108f54d879b7b980a354bfbca4cc3d8c9ec92fc30d8b3e75c",
+   "srcWidth": 1024
+  },
+  "wands-queen": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 60290,
+    "m": 23410,
+    "t": 4872
+   },
+   "srcFile": "Wands13.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "cf072082bfe2c29fab2f3dca4c10bbba58ea9478433f34df48dae8c01a5a473c",
+   "srcWidth": 1024
+  },
+  "wands-seven": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 112324,
+    "m": 34080,
+    "t": 5834
+   },
+   "srcFile": "Wands07.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "095495e05a1505a7ee8db5abe97228f908b216c561527a7caecc16331da3b054",
+   "srcWidth": 1024
+  },
+  "wands-six": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 50824,
+    "m": 21220,
+    "t": 4208
+   },
+   "srcFile": "Wands06.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "0e28b8bb1d794ce3288e6e3039a284cee6de4513742ede099c2341e5c9ad4a81",
+   "srcWidth": 1024
+  },
+  "wands-ten": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 48844,
+    "m": 21740,
+    "t": 3746
+   },
+   "srcFile": "Wands10.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "61b1aa480e12c383d2e5a8cb5f3ca2401136d60d86e9c4f96a7b383fcee926a1",
+   "srcWidth": 1024
+  },
+  "wands-three": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 53502,
+    "m": 20950,
+    "t": 4102
+   },
+   "srcFile": "Wands03.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "e5503e8e49f731dba03222a1aac9d0f7d3d8ce23b3bad8dfe8856589c4a61bb6",
+   "srcWidth": 1024
+  },
+  "wands-two": {
+   "aspect": 0.6667,
+   "relation": "identity",
+   "sizes": {
+    "l": 49952,
+    "m": 20436,
+    "t": 4170
+   },
+   "srcFile": "Wands02.jpg",
+   "srcHeight": 1536,
+   "srcSha256": "16cd934e95b62db3875473be5ae3fe0c2d45e42c90af3349c14108d82f5c3d24",
+   "srcWidth": 1024
+  }
+ },
+ "cover": {
+  "aspect": 0.6667,
+  "bytes": 16576,
+  "srcFile": "Cover.jpg"
+ },
+ "deckId": "soimoi",
+ "schema": 1,
+ "tiers": {
+  "l": {
+   "minSourceWidth": 640,
+   "quality": 70,
+   "width": 760
+  },
+  "m": {
+   "quality": 72,
+   "width": 440
+  },
+  "t": {
+   "quality": 62,
+   "width": 168
+  }
+ },
+ "totals": {
+  "all": 7901006,
+  "cover": 16576,
+  "l": 5677168,
+  "m": 1866608,
+  "t": 340654
+ }
+}

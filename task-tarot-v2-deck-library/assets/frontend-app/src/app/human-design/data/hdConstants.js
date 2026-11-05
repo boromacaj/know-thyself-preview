@@ -1,0 +1,13 @@
+export const HD_DESIGN_IMPRINT_DEGREES = 88;
+export const HD_GATE_WHEEL_START_DEGREES = 302;
+export const HD_NUM_GATES = 64;
+export const HD_NUM_LINES = 6;
+export const HD_NUM_COLORS = 6;
+export const HD_NUM_TONES = 6;
+export const HD_NUM_BASES = 5;
+export const HD_FULL_CIRCLE_DEGREES = 360;
+export const HD_GATE_SEGMENT = HD_FULL_CIRCLE_DEGREES / HD_NUM_GATES;
+export const HD_LINE_SEGMENT = HD_GATE_SEGMENT / HD_NUM_LINES;
+export const HD_COLOR_SEGMENT = HD_LINE_SEGMENT / HD_NUM_COLORS;
+export const HD_TONE_SEGMENT = HD_COLOR_SEGMENT / HD_NUM_TONES;
+export const HD_BASE_SEGMENT = HD_TONE_SEGMENT / HD_NUM_BASES;

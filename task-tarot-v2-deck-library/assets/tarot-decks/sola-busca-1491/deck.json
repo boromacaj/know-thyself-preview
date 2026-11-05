@@ -1,0 +1,1092 @@
+{
+ "cardCount": 78,
+ "cards": {
+  "cups-ace": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 61342,
+    "t": 11694
+   },
+   "srcFile": "22.jpg",
+   "srcHeight": 877,
+   "srcSha256": "5352f3c0634f6074f1015473e9c100c048dfc58372ab54f1a31a85996be783ba",
+   "srcWidth": 474
+  },
+  "cups-eight": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 58820,
+    "t": 11534
+   },
+   "srcFile": "29.jpg",
+   "srcHeight": 877,
+   "srcSha256": "57163ef137fdc2842455326fe0c5eab088d01536f018d0d00be8594b1d9ce0b4",
+   "srcWidth": 474
+  },
+  "cups-five": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 56338,
+    "t": 11034
+   },
+   "srcFile": "26.jpg",
+   "srcHeight": 877,
+   "srcSha256": "64b5d81c2e635763b84c55ecfaba957ed4d49880e785f3542656c6b09a27d40c",
+   "srcWidth": 474
+  },
+  "cups-four": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 58554,
+    "t": 10210
+   },
+   "srcFile": "25.jpg",
+   "srcHeight": 877,
+   "srcSha256": "899ea05e92b273364ac3b73aab66470f1063b3fcadd68a442e8f9b9bef561d51",
+   "srcWidth": 474
+  },
+  "cups-king": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 68446,
+    "t": 11702
+   },
+   "srcFile": "35.jpg",
+   "srcHeight": 877,
+   "srcSha256": "19233b67fbc0fc81d2bb20e1cfdf3a4a970858f43713cd88b4cdf6afb4658288",
+   "srcWidth": 474
+  },
+  "cups-knight": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 60992,
+    "t": 10602
+   },
+   "srcFile": "33.jpg",
+   "srcHeight": 877,
+   "srcSha256": "34c7dd98c2317a40ca4aabe0642821110b56d36392507365037fd97c67d3bd59",
+   "srcWidth": 474
+  },
+  "cups-nine": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 65838,
+    "t": 12350
+   },
+   "srcFile": "30.jpg",
+   "srcHeight": 877,
+   "srcSha256": "cee27e39b7466a6fbbbd9142cb8ed2530822588a210da129388494196423a83b",
+   "srcWidth": 474
+  },
+  "cups-page": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 60414,
+    "t": 10196
+   },
+   "srcFile": "32.jpg",
+   "srcHeight": 877,
+   "srcSha256": "8a53b552e7862b65287b291ce7f83263dc3287b3d9bd2e191135b11f3ac1c26e",
+   "srcWidth": 474
+  },
+  "cups-queen": {
+   "aspect": 0.5411,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 63292,
+    "t": 11300
+   },
+   "srcFile": "34.jpg",
+   "srcHeight": 876,
+   "srcSha256": "1dae3a6918387a7932152ba14c040769101326fb7b509f9c57f6e470d6eb42ef",
+   "srcWidth": 474
+  },
+  "cups-seven": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 60686,
+    "t": 11352
+   },
+   "srcFile": "28.jpg",
+   "srcHeight": 877,
+   "srcSha256": "3aeb602d803aebf6243df1c278bb902b57f21928a7920587faca749dd0b75e9c",
+   "srcWidth": 474
+  },
+  "cups-six": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 67502,
+    "t": 12922
+   },
+   "srcFile": "27.jpg",
+   "srcHeight": 877,
+   "srcSha256": "77e1e722f9986ecd740211e357e7fe1bff44bfdbfe26764a7e1bc7c7132a6534",
+   "srcWidth": 474
+  },
+  "cups-ten": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 59780,
+    "t": 10892
+   },
+   "srcFile": "31.jpg",
+   "srcHeight": 877,
+   "srcSha256": "ab14c6e0b60d24897f7add6f72db649ab45e9da4dd36379a6892df2868aef5c4",
+   "srcWidth": 474
+  },
+  "cups-three": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 60792,
+    "t": 11428
+   },
+   "srcFile": "24.jpg",
+   "srcHeight": 877,
+   "srcSha256": "8da3f53357bd518cd6b24792bf32bca67fadff936f5313dfa87a268346f4b70d",
+   "srcWidth": 474
+  },
+  "cups-two": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 64632,
+    "t": 12666
+   },
+   "srcFile": "23.jpg",
+   "srcHeight": 877,
+   "srcSha256": "dabceed299e38c35814a3ce63f79e79acf7bcf107cc6681f5e5dfda3c1e6587d",
+   "srcWidth": 474
+  },
+  "major-chariot": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump VII",
+   "nativeNumber": "VII",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 61880,
+    "t": 10644
+   },
+   "srcFile": "07.jpg",
+   "srcHeight": 877,
+   "srcSha256": "dfbefd34702246c953ea8d923ae4a4657f8855a543f31948aa3c01f3d11e162f",
+   "srcWidth": 474
+  },
+  "major-death": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XIII",
+   "nativeNumber": "XIII",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 58436,
+    "t": 9834
+   },
+   "srcFile": "13.jpg",
+   "srcHeight": 877,
+   "srcSha256": "03004fc8011a11f40cec406481a7429e564489ba8ff4ce4a14265c1ce8510537",
+   "srcWidth": 474
+  },
+  "major-devil": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XV",
+   "nativeNumber": "XV",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 66602,
+    "t": 11574
+   },
+   "srcFile": "15.jpg",
+   "srcHeight": 877,
+   "srcSha256": "422bbd9352f17ca805d72db03c27f6e39fc1ee6c8c2459d8395d87b230ff48ae",
+   "srcWidth": 474
+  },
+  "major-emperor": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump IV",
+   "nativeNumber": "IV",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 55954,
+    "t": 9776
+   },
+   "srcFile": "04.jpg",
+   "srcHeight": 877,
+   "srcSha256": "cf4533b29a571cbc410a3cd75c313a4426bf899718407b5ba386daf23e7b3e99",
+   "srcWidth": 474
+  },
+  "major-empress": {
+   "aspect": 0.5411,
+   "nativeLabel": "Trump III",
+   "nativeNumber": "III",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 56074,
+    "t": 9672
+   },
+   "srcFile": "03.jpg",
+   "srcHeight": 876,
+   "srcSha256": "ca5a8f35d65e1e2a887dd029522e13ac768a04c8a864eda2725d0d2e87833634",
+   "srcWidth": 474
+  },
+  "major-fool": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump 0",
+   "nativeNumber": "0",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 61834,
+    "t": 10580
+   },
+   "srcFile": "00.jpg",
+   "srcHeight": 877,
+   "srcSha256": "ddc4aa6be4c4f20fb44b9278e01e41a054b7fb41b3f3c6ceb48b1aad15acfc1a",
+   "srcWidth": 474
+  },
+  "major-hanged-man": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XII",
+   "nativeNumber": "XII",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 62052,
+    "t": 10930
+   },
+   "srcFile": "12.jpg",
+   "srcHeight": 877,
+   "srcSha256": "0eb735d2562db40afa539c8e8c90a8bbb9f8a68d62de93e73a40f8e43d529730",
+   "srcWidth": 474
+  },
+  "major-hermit": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump IX",
+   "nativeNumber": "IX",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 59246,
+    "t": 10020
+   },
+   "srcFile": "09.jpg",
+   "srcHeight": 877,
+   "srcSha256": "7db31c120aad371abdb11fc15bc20e8e4ed3fc8c5ef5492d80b2886e5918d6c6",
+   "srcWidth": 474
+  },
+  "major-hierophant": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump V",
+   "nativeNumber": "V",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 59348,
+    "t": 10294
+   },
+   "srcFile": "05.jpg",
+   "srcHeight": 877,
+   "srcSha256": "0fba4b7c18d93b4a3c1888c31d79ce98593d49acf1ee8c73197406b253f72747",
+   "srcWidth": 474
+  },
+  "major-high-priestess": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump II",
+   "nativeNumber": "II",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 54620,
+    "t": 9550
+   },
+   "srcFile": "02.jpg",
+   "srcHeight": 877,
+   "srcSha256": "8d8245b92f911ca9bb4f022d690fcb3482e9513c2a52a5af8b5f3e87617f4811",
+   "srcWidth": 474
+  },
+  "major-judgement": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XX",
+   "nativeNumber": "XX",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 58674,
+    "t": 10430
+   },
+   "srcFile": "20.jpg",
+   "srcHeight": 877,
+   "srcSha256": "ae2ab932653044b6508229662d0d96b3f4e98f2aa87b25de333ca7ae35798aa0",
+   "srcWidth": 474
+  },
+  "major-justice": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XI",
+   "nativeNumber": "XI",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 58118,
+    "t": 9636
+   },
+   "srcFile": "11.jpg",
+   "srcHeight": 877,
+   "srcSha256": "26d585e64dceacfd28bf2a46d07a7020551ecccc0be62105f98ea7d1dba87799",
+   "srcWidth": 474
+  },
+  "major-lovers": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump VI",
+   "nativeNumber": "VI",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 67716,
+    "t": 11198
+   },
+   "srcFile": "06.jpg",
+   "srcHeight": 877,
+   "srcSha256": "e406471b83545f1f8c499c7a941ab49a8ec3ccbcf9599a106bab9f6d3f646311",
+   "srcWidth": 474
+  },
+  "major-magician": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump I",
+   "nativeNumber": "I",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 64606,
+    "t": 10786
+   },
+   "srcFile": "01.jpg",
+   "srcHeight": 877,
+   "srcSha256": "7b0af42bd592eb46f1b8bd0dc902d5bea9139dd52557f66ac4e55e0bcd5bf8b0",
+   "srcWidth": 474
+  },
+  "major-moon": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XVIII",
+   "nativeNumber": "XVIII",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 66758,
+    "t": 11438
+   },
+   "srcFile": "18.jpg",
+   "srcHeight": 877,
+   "srcSha256": "d0745958997026aa1a9b06116ca0edc063c4f53320648246ab365e669b24dbbe",
+   "srcWidth": 474
+  },
+  "major-star": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XVII",
+   "nativeNumber": "XVII",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 68242,
+    "t": 11394
+   },
+   "srcFile": "17.jpg",
+   "srcHeight": 877,
+   "srcSha256": "2a69b7fd718736d613fd27c399362edccd4705a1373ed4356f5f08be9dd27271",
+   "srcWidth": 474
+  },
+  "major-strength": {
+   "aspect": 0.5411,
+   "nativeLabel": "Trump VIII",
+   "nativeNumber": "VIII",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 52612,
+    "t": 9752
+   },
+   "srcFile": "08.jpg",
+   "srcHeight": 876,
+   "srcSha256": "e8fcd925d92411e22855a3f7aadab5ec0b95dcab33f60d3ff251a2bb8ce32ef8",
+   "srcWidth": 474
+  },
+  "major-sun": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XIX",
+   "nativeNumber": "XIX",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 70370,
+    "t": 11906
+   },
+   "srcFile": "19.jpg",
+   "srcHeight": 877,
+   "srcSha256": "ddb015840d57299e1f43d1703fc81889a458b6b2ffe9ec792dc5bb2e23db8541",
+   "srcWidth": 474
+  },
+  "major-temperance": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XIV",
+   "nativeNumber": "XIV",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 67412,
+    "t": 11280
+   },
+   "srcFile": "14.jpg",
+   "srcHeight": 877,
+   "srcSha256": "4a7b9393b1462b041acd694761f49b23aa73c6b6bbe1a6e21989c6d5bf5f699b",
+   "srcWidth": 474
+  },
+  "major-tower": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XVI",
+   "nativeNumber": "XVI",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 65604,
+    "t": 10628
+   },
+   "srcFile": "16.jpg",
+   "srcHeight": 877,
+   "srcSha256": "44b618cab22dc8d17a02fae6358a084c4f69a8c9890db5ce2bd88173243f158f",
+   "srcWidth": 474
+  },
+  "major-wheel-of-fortune": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump X",
+   "nativeNumber": "X",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 63258,
+    "t": 9976
+   },
+   "srcFile": "10.jpg",
+   "srcHeight": 877,
+   "srcSha256": "2babd06c3f355371234c0abe4e0a7784d6a4b5d7a8ed15be2c406f2d213f0336",
+   "srcWidth": 474
+  },
+  "major-world": {
+   "aspect": 0.5405,
+   "nativeLabel": "Trump XXI",
+   "nativeNumber": "XXI",
+   "relation": "positional",
+   "sizes": {
+    "l": null,
+    "m": 67880,
+    "t": 11438
+   },
+   "srcFile": "21.jpg",
+   "srcHeight": 877,
+   "srcSha256": "bde323b375b85670fa0b654af5795bb4985b8859ddc941173f9b290655a558e0",
+   "srcWidth": 474
+  },
+  "pentacles-ace": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 68096,
+    "t": 12034
+   },
+   "srcFile": "36.jpg",
+   "srcHeight": 877,
+   "srcSha256": "c28e9816b8ef09d885efbf51f8442addd11c5c7e1159b9d50c14bd38bb575eb3",
+   "srcWidth": 474
+  },
+  "pentacles-eight": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 69028,
+    "t": 11108
+   },
+   "srcFile": "43.jpg",
+   "srcHeight": 877,
+   "srcSha256": "26efe09f2127e778199c3438f6d44814f718df6d0a8292b78cd7825cd8c41f65",
+   "srcWidth": 474
+  },
+  "pentacles-five": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 61178,
+    "t": 11582
+   },
+   "srcFile": "40.jpg",
+   "srcHeight": 877,
+   "srcSha256": "0acf9e55086d8528ceaf651a62f7851574e66119e70b8079d2aa1d494a1baaa9",
+   "srcWidth": 474
+  },
+  "pentacles-four": {
+   "aspect": 0.5411,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 63800,
+    "t": 10880
+   },
+   "srcFile": "39.jpg",
+   "srcHeight": 876,
+   "srcSha256": "e434ba5c0eb26522698af77a7ad3e8a1aa314b658849f8a1e4d604b7b1d514b4",
+   "srcWidth": 474
+  },
+  "pentacles-king": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 61042,
+    "t": 10486
+   },
+   "srcFile": "49.jpg",
+   "srcHeight": 877,
+   "srcSha256": "7748e30a175ef65e3cfeb83964254cabb9b06176018f0374042f847962617610",
+   "srcWidth": 474
+  },
+  "pentacles-knight": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 60570,
+    "t": 9512
+   },
+   "srcFile": "47.jpg",
+   "srcHeight": 877,
+   "srcSha256": "d52fae40306451eb13ac797b7e8d5fa4ead455d26508a8e3af7ee9568cbe77bd",
+   "srcWidth": 474
+  },
+  "pentacles-nine": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 67730,
+    "t": 11700
+   },
+   "srcFile": "44.jpg",
+   "srcHeight": 877,
+   "srcSha256": "bf8daa1122517eea2998d253ed112d5eaf45dbb47d0add75ba6f26738233fd09",
+   "srcWidth": 474
+  },
+  "pentacles-page": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 53108,
+    "t": 9284
+   },
+   "srcFile": "46.jpg",
+   "srcHeight": 877,
+   "srcSha256": "88de972747d01ed4e0773d01521f25ffefa3c250be75e23ada7df2aa8c8ff83a",
+   "srcWidth": 474
+  },
+  "pentacles-queen": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 63870,
+    "t": 11126
+   },
+   "srcFile": "48.jpg",
+   "srcHeight": 877,
+   "srcSha256": "f76e44f3e288a1da1b207a7f3b5450ebcc798aded69821d5cabf7cb4c9afb8dd",
+   "srcWidth": 474
+  },
+  "pentacles-seven": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 62500,
+    "t": 10470
+   },
+   "srcFile": "42.jpg",
+   "srcHeight": 877,
+   "srcSha256": "ef4414fc38d25c30e7388dc4d13ae4f7e322e14de3d622ace3016d6f8c2e541a",
+   "srcWidth": 474
+  },
+  "pentacles-six": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 68634,
+    "t": 10648
+   },
+   "srcFile": "41.jpg",
+   "srcHeight": 877,
+   "srcSha256": "d9d3695270c998a7b8f8236d50c57942e4db71e6cdcf92106d34e26aa9001e74",
+   "srcWidth": 474
+  },
+  "pentacles-ten": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 63102,
+    "t": 10326
+   },
+   "srcFile": "45.jpg",
+   "srcHeight": 877,
+   "srcSha256": "fe656d7926112dea9402fe994cb0ddf1a8576afd3e05f834cb108c6298acb2fa",
+   "srcWidth": 474
+  },
+  "pentacles-three": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 58154,
+    "t": 10724
+   },
+   "srcFile": "38.jpg",
+   "srcHeight": 877,
+   "srcSha256": "da1d4ad9cc4c928460100c3272da079412b1f117b380a72bde02e3714e0e87a2",
+   "srcWidth": 474
+  },
+  "pentacles-two": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 65840,
+    "t": 12086
+   },
+   "srcFile": "37.jpg",
+   "srcHeight": 877,
+   "srcSha256": "88d4db97e03feda42ede3475fc5966eaaf1018d5a42e30edce373b919f8452bf",
+   "srcWidth": 474
+  },
+  "swords-ace": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 59468,
+    "t": 9998
+   },
+   "srcFile": "64.jpg",
+   "srcHeight": 877,
+   "srcSha256": "3adfd9494388466f424bfa5b6e2d25d7cfebe0fade3ef78845bf488319fdb78a",
+   "srcWidth": 474
+  },
+  "swords-eight": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 66874,
+    "t": 11934
+   },
+   "srcFile": "71.jpg",
+   "srcHeight": 877,
+   "srcSha256": "13188236da3e02663f972255b73fe5489fc497fcfd67af7ef0f6afaa19cff13c",
+   "srcWidth": 474
+  },
+  "swords-five": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 60614,
+    "t": 10566
+   },
+   "srcFile": "68.jpg",
+   "srcHeight": 877,
+   "srcSha256": "ba692d8ca6ba641505e1689a813bda69c0bb77ab91e2b3962161742ecc1207ff",
+   "srcWidth": 474
+  },
+  "swords-four": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 56410,
+    "t": 10976
+   },
+   "srcFile": "67.jpg",
+   "srcHeight": 877,
+   "srcSha256": "213ca45b5ff51823a8f64ff739b9bd924396ac07e44beeccea3583880aa750bc",
+   "srcWidth": 474
+  },
+  "swords-king": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 69190,
+    "t": 11780
+   },
+   "srcFile": "77.jpg",
+   "srcHeight": 877,
+   "srcSha256": "d4336f09cb893d7065da22f9171f8f81ccdd5a6408ec52c7ab87773d4ab28c5c",
+   "srcWidth": 474
+  },
+  "swords-knight": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 63504,
+    "t": 10532
+   },
+   "srcFile": "75.jpg",
+   "srcHeight": 877,
+   "srcSha256": "f76333947410e92d0d5f758d834091c6aaa43bf24aa55f99447cd492dd4ee065",
+   "srcWidth": 474
+  },
+  "swords-nine": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 63074,
+    "t": 10666
+   },
+   "srcFile": "72.jpg",
+   "srcHeight": 877,
+   "srcSha256": "9d28ed14a7063294063b3a9819cfdf32955dc2f9dbcfade0d0f6b10bca464d1b",
+   "srcWidth": 474
+  },
+  "swords-page": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 56478,
+    "t": 9962
+   },
+   "srcFile": "74.jpg",
+   "srcHeight": 877,
+   "srcSha256": "a8933a72a81e3812edf1b06e7f8b83939c5408c72e149c9183d47cbeb65757ed",
+   "srcWidth": 474
+  },
+  "swords-queen": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 61904,
+    "t": 10426
+   },
+   "srcFile": "76.jpg",
+   "srcHeight": 877,
+   "srcSha256": "e3054bde629644281ff1f207ab85da40c969ada10af9f2daffd2730e20d65c80",
+   "srcWidth": 474
+  },
+  "swords-seven": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 67174,
+    "t": 11438
+   },
+   "srcFile": "70.jpg",
+   "srcHeight": 877,
+   "srcSha256": "01eb873b0b39a768006517dec7d05e4f19b6a5cd7c4510dbb3bc10fcf5ddf039",
+   "srcWidth": 474
+  },
+  "swords-six": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 57328,
+    "t": 9720
+   },
+   "srcFile": "69.jpg",
+   "srcHeight": 877,
+   "srcSha256": "5be58423ae8d4e4512de049fe293de8b4f41030ae471e8ea38b7584258aa8da6",
+   "srcWidth": 474
+  },
+  "swords-ten": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 64866,
+    "t": 10284
+   },
+   "srcFile": "73.jpg",
+   "srcHeight": 877,
+   "srcSha256": "b4ce0c28c80e54ac14cd95c339d3e8f962b935bb7d61bdde09461c5e12605730",
+   "srcWidth": 474
+  },
+  "swords-three": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 52694,
+    "t": 9106
+   },
+   "srcFile": "66.jpg",
+   "srcHeight": 877,
+   "srcSha256": "b7d694bd390e396e88dd9fc461b62202474f4845180ebb99241e515760b530e6",
+   "srcWidth": 474
+  },
+  "swords-two": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 61696,
+    "t": 10448
+   },
+   "srcFile": "65.jpg",
+   "srcHeight": 877,
+   "srcSha256": "48c06dda149ce8b9667c50a768b2a58cfda6ae26d0141ce724c86c6cbfff836b",
+   "srcWidth": 474
+  },
+  "wands-ace": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 60714,
+    "t": 10570
+   },
+   "srcFile": "50.jpg",
+   "srcHeight": 877,
+   "srcSha256": "119a508a36232e971c01d9fed24697a2e4ea26284c7a04ae15341b50a311e098",
+   "srcWidth": 474
+  },
+  "wands-eight": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 63262,
+    "t": 10628
+   },
+   "srcFile": "57.jpg",
+   "srcHeight": 877,
+   "srcSha256": "171510539a60dae09b6a2b0d62da80bebe4918f0d3fdb1ede112bb09063a5f38",
+   "srcWidth": 474
+  },
+  "wands-five": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 61750,
+    "t": 10080
+   },
+   "srcFile": "54.jpg",
+   "srcHeight": 877,
+   "srcSha256": "a1e8be04c2884162181c5036fea8df1307b3d10875fad5603075469e959d6fb5",
+   "srcWidth": 474
+  },
+  "wands-four": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 61374,
+    "t": 10510
+   },
+   "srcFile": "53.jpg",
+   "srcHeight": 877,
+   "srcSha256": "311b0057aa333f94bc6edd34b98d97dfa623c3e3e36cda51408568c1827616b9",
+   "srcWidth": 474
+  },
+  "wands-king": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 64880,
+    "t": 11672
+   },
+   "srcFile": "63.jpg",
+   "srcHeight": 877,
+   "srcSha256": "7d35ee599dc965ec9a1dba593794dde6c1c3a50088fcee92566469f7907c5104",
+   "srcWidth": 474
+  },
+  "wands-knight": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 57454,
+    "t": 9948
+   },
+   "srcFile": "61.jpg",
+   "srcHeight": 877,
+   "srcSha256": "bbcb11c7824b3c1d8a966cfbf5a25846268bba058b5e7e8f07b59b17c7cf402c",
+   "srcWidth": 474
+  },
+  "wands-nine": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 57290,
+    "t": 10084
+   },
+   "srcFile": "58.jpg",
+   "srcHeight": 877,
+   "srcSha256": "7684866e00a6d08dd364ce2eefe59321664e14f5341c8e80d18219c6284f32f3",
+   "srcWidth": 474
+  },
+  "wands-page": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 55956,
+    "t": 9672
+   },
+   "srcFile": "60.jpg",
+   "srcHeight": 877,
+   "srcSha256": "b7689e00c18bdd4d3deace3d5b535ba10804c5c8337f6ba02c08951ecf191cb7",
+   "srcWidth": 474
+  },
+  "wands-queen": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 56132,
+    "t": 9786
+   },
+   "srcFile": "62.jpg",
+   "srcHeight": 877,
+   "srcSha256": "bae3cdf3ae5873ce42b4153e020035eb5ccb58035952794567e5c13b7a25adb9",
+   "srcWidth": 474
+  },
+  "wands-seven": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 60880,
+    "t": 10136
+   },
+   "srcFile": "56.jpg",
+   "srcHeight": 877,
+   "srcSha256": "5215fdbd818ec6bb5a3e1f138122fc75d694263742502ef6a0de3a7647936ac8",
+   "srcWidth": 474
+  },
+  "wands-six": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 54674,
+    "t": 10328
+   },
+   "srcFile": "55.jpg",
+   "srcHeight": 877,
+   "srcSha256": "9dfbfd0ff0b67a0a833497c59cec9477219e7b83d0c3829ad0079a7793669cae",
+   "srcWidth": 474
+  },
+  "wands-ten": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 59152,
+    "t": 10574
+   },
+   "srcFile": "59.jpg",
+   "srcHeight": 877,
+   "srcSha256": "aa89f371a9906b644f9b5cd0a5ce840a9565068d84a43f572b6ff31c0ff54f7e",
+   "srcWidth": 474
+  },
+  "wands-three": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 53404,
+    "t": 9622
+   },
+   "srcFile": "52.jpg",
+   "srcHeight": 877,
+   "srcSha256": "d1013cafc7c334ece28b874036d01ec632adce5f928f1b9e0e942d3fe110e050",
+   "srcWidth": 474
+  },
+  "wands-two": {
+   "aspect": 0.5405,
+   "relation": "identity",
+   "sizes": {
+    "l": null,
+    "m": 62148,
+    "t": 10020
+   },
+   "srcFile": "51.jpg",
+   "srcHeight": 877,
+   "srcSha256": "8d33e94c99372830aa3d36b01fc7e10bdf32d9722183fe841869cb5dfb856caf",
+   "srcWidth": 474
+  }
+ },
+ "cover": {
+  "aspect": 0.5405,
+  "bytes": 36124,
+  "srcFile": "00.jpg"
+ },
+ "deckId": "sola-busca-1491",
+ "schema": 1,
+ "tiers": {
+  "l": {
+   "minSourceWidth": 640,
+   "quality": 74,
+   "width": 880
+  },
+  "m": {
+   "quality": 72,
+   "width": 440
+  },
+  "t": {
+   "quality": 62,
+   "width": 168
+  }
+ },
+ "totals": {
+  "all": 5683894,
+  "cover": 36124,
+  "l": 0,
+  "m": 4811720,
+  "t": 836050
+ }
+}

@@ -1,0 +1,186 @@
+/**
+ * Pentacles, Nine to King: the late numbered card and the four court ranks of the material suit.
+ * Courts are written as a stance, a role or a part of the reader, never as a literal person.
+ */
+export const READER_CARDS_PART_10 = {
+    'pentacles-nine': {
+        en: {
+            essence: "Comfort that was actually earned, enjoyed in a place of one's own making, and shadowed by how alone it is.",
+            description: "A figure walks alone through a walled vineyard heavy with grapes, a hooded falcon on the gloved wrist, a snail at the foot of the vines. Little here is still being fought for. The card shows what steady work looks like after it has paid out: a place of one's own, a settled taste, the freedom of not asking anyone's permission. The falcon matters: an instinct to hunt, trained and brought to rest, so the ease is held by discipline rather than luck. Well used, it is self-sufficiency that was built rather than claimed, and pleasure in one's own company. The risk is the wall itself: independence that has become a reason never to need anyone, enjoyment that is only safe while the garden stays empty. The security looks real; what stays open is how far it reaches beyond the fence.",
+            stake: "self-sufficiency and cultivated comfort",
+            question: "How much of this independence is freedom, and how much is a wall that keeps everything else out?",
+            lines: {
+                origin: "{card} reads as an influence carried in from earlier: years of working toward a life that could stand on its own, which left a taste for independence and a reluctance to lean on anyone for what was built alone.",
+                state: "{card} describes a situation of settled ease: what has been built is working, and there is room to enjoy it. The picture is private and orderly, and the open matter is how much of that peace depends on staying inside the garden walls.",
+                driver: "{card} in the underlying place suggests that what keeps this going is the safety of not needing anyone. Self-reliance protects against being let down, and the cost is that it can also keep out help, company and the kind of risk that would make the garden larger.",
+                response: "As the way forward, {mid} asks for enjoyment without defensiveness: to let what was earned be used and shared, and to tell the independence that is chosen from the isolation that has simply become habit.",
+                direction: "{card} marks a tendency toward consolidation. If the present dynamic continues, comfort deepens and so does the habit of managing alone, and the thing to watch is whether the enclosure is still a choice.",
+                other: "On the other side, {mid} points to a stance of self-sufficiency and quiet enjoyment: a position of independence, kept apart by preference or by habit. That is a stance, not a reading of what they privately feel.",
+            },
+        },
+        sk: {
+            essence: "Odpracovaná pohoda vo vlastnej záhrade a otázka, či je to ešte nezávislosť, alebo už osamelosť.",
+            description: "Postava kráča sama ohradenou vinicou, ťažkou od strapcov, na rukavici sokol so zakrytými očami, pri koreňoch viniča slimák. O nič sa tu už nebojuje. Karta ukazuje, ako vyzerá vytrvalá práca po tom, čo sa vyplatila: vlastné miesto, vyhranený vkus, voľnosť nepýtať sa nikoho na dovolenie. Na sokolovi záleží: pud loviť, ktorý sa vycvičil a uložil na pokoj, takže pohodu drží disciplína, nie náhoda. Keď to funguje, je to sebestačnosť, ktorá sa vybudovala, nielen vyhlásila, a pokoj v tom, byť sám so sebou. Riziko je samotný múr: nezávislosť, z ktorej sa stal dôvod nikdy nikoho nepotrebovať, pôžitok, ktorý je bezpečný, len kým je záhrada prázdna, pohodlie strážené tak starostlivo, že sa už nedá riskovať. Nič sa tu nezvierá v päsť. Istota je skutočná a otvorené zostáva len to, ako ďaleko siaha za plot.",
+            stake: "sebestačnosť a pestované pohodlie",
+            question: "Koľko z tejto nezávislosti je sloboda a koľko múr, ktorý drží von všetko ostatné?",
+            lines: {
+                origin: "{card} sa číta ako vplyv z predchádzajúceho obdobia: roky budovania života, ktorý obstojí sám, z ktorých zostala chuť k nezávislosti a neochota opierať sa o iných pri tom, čo vzniklo osamote.",
+                state: "{card} opisuje situáciu usadenej pohody: to, čo sa vybudovalo, funguje a je priestor si to užiť. Obraz je súkromný a usporiadaný a necháva otvorené, koľko z toho pokoja závisí od toho, že zostane za múrmi záhrady.",
+                driver: "{card} na mieste toho, čo je pod povrchom, ukazuje, že situáciu drží istota z toho, že nikoho netreba. Spoliehanie sa len na seba chráni pred sklamaním a cena je, že môže zavrieť dvere aj pomoci, spoločnosti a riziku, ktoré by záhradu zväčšilo.",
+                response: "Ako cesta vpred {mid} žiada pôžitok bez obranného postoja: nechať to, čo sa zaslúžilo, používať a zdieľať, a rozlíšiť nezávislosť zvolenú od izolácie, ktorá sa len stala zvykom.",
+                direction: "{card} ukazuje smer k upevňovaniu. Ak súčasná dynamika pokračuje, pohodlie sa prehlbuje a spolu s ním aj zvyk zvládať všetko osamote, a treba si všímať, či je ohrada ešte voľbou.",
+                other: "Na mieste druhej strany {mid} ukazuje postoj sebestačnosti a tichého užívania: pozíciu nezávislosti, držanú bokom z vlastnej voľby alebo zo zvyku. Je to postoj, nie pohľad do toho, čo druhá strana súkromne cíti.",
+            },
+        },
+    },
+    'pentacles-ten': {
+        en: {
+            essence: "What is built to outlast its builder: continuity, belonging and what gets handed on.",
+            description: "Under an archway several generations share one space: an old man with his dogs, a couple, a child, the emblems of a house above them and the pentacles laid out in the pattern of a tree. Nothing in the picture is the work of one person. The card is the long view of the suit: what lasts beyond a single lifetime or a single pair of hands, traditions, trades, households and ways of doing things, kept because they proved worth keeping. Well used, it gives belonging and ground that others can stand on as well. The cost shows when keeping becomes the point: a structure guarded more than lived in, duties taken on because they were always there rather than because anyone chose them, continuity that asks the next person to carry what nobody picked. The open question is what in all this deserves to outlast the present, and what is only being kept.",
+            stake: "continuity built to outlast its builder",
+            question: "What is being built that deserves to be carried on, and what is only being kept out of habit?",
+            lines: {
+                origin: "Behind this, {mid} points to something from earlier: a way of doing things or a sense of belonging, established long before this moment and passed on, that still sets what feels solid.",
+                state: "Where things stand, {mid} shows a situation with long roots: structures, commitments and habits that hold because they have held for a long time. The emphasis falls on what is shared and carried on rather than on any single effort or gain.",
+                driver: "Underneath this, {mid} suggests that what keeps this going is loyalty to something larger than the present choice. Continuity gives security and a place to belong; the cost is that what was taken on can stay in place long after anyone has asked whether it still fits.",
+                response: "What {mid} asks for here is building with the long view: deciding which parts of what exists are worth passing on, and putting effort there instead of guarding all of it equally.",
+                direction: "If the present dynamic continues, {mid} points toward permanence: what exists settles further into tradition, and the thing to watch is whether it stays alive or only stays standing.",
+                other: "For the other side, {mid} describes a posture of continuity and belonging: a role tied to something established and carried across time. It is a position within a lasting structure, not a window into what they privately think or feel.",
+            },
+        },
+        sk: {
+            essence: "To, čo je postavené, aby prežilo staviteľa: trvalosť, spolupatričnosť a to, čo sa odovzdáva ďalej.",
+            description: "Pod klenbou sa v jednom priestore stretáva niekoľko generácií: starec so psami, pár, dieťa, nad nimi znaky domu a mince rozložené do vzoru stromu. Nič na tomto obraze nie je dielom jedného človeka. Karta je dlhý pohľad celej farby: to, čo trvá dlhšie než jeden život či jedny ruky, teda zvyky, remeslá, domácnosti a spôsoby práce, ktoré sa odovzdávajú, lebo sa osvedčili. Keď funguje, dáva spolupatričnosť a pôdu, na ktorej môžu stáť aj iní. Cena sa ukáže, keď sa udržiavanie stane cieľom: dom, ktorý sa viac stráži, než obýva, povinnosti prevzaté preto, že tu vždy boli, a nie preto, že si ich niekto zvolil, tradícia, ktorá núti ďalšieho niesť to, čo nikto nevybral. Sila a ťarcha sú tu tá istá vec videná z dvoch strán. Otvorená otázka je, čo z toho si zaslúži prežiť prítomnosť a čo sa len uchováva.",
+            stake: "dielo stavané, aby prežilo staviteľa",
+            question: "Čo sa buduje tak, že si zaslúži pokračovať, a čo sa len uchováva zo zvyku?",
+            lines: {
+                origin: "Za týmto stojí {mid} ako vec z predchádzajúceho obdobia: niečo založené dávno pred týmto okamihom, spôsob práce alebo pocit spolupatričnosti, ktorý sa odovzdal a dodnes určuje, čo pôsobí pevne.",
+                state: "Tam, kde veci stoja, {mid} ukazuje situáciu s dlhými koreňmi: poriadky, záväzky a zvyky, ktoré držia preto, že držia už dlho. Dôraz leží na tom, čo sa zdieľa a prenáša ďalej, nie na jedinom úsilí či zisku.",
+                driver: "Pod povrchom {mid} ukazuje, že to drží vernosť niečomu väčšiemu než dnešné rozhodnutie. Trvalosť dáva istotu a miesto, kam patriť; cena je, že prevzaté sa môže udržiavať dávno po tom, čo sa nikto nespýtal, či ešte sedí.",
+                response: "{card} tu žiada budovať s dlhým pohľadom: rozhodnúť, ktoré časti existujúceho stoja za odovzdanie, a vložiť úsilie tam, nie do rovnako pozorného stráženia všetkého.",
+                direction: "Ak súčasná dynamika pokračuje, {mid} ukazuje na trvalosť: existujúce sa ešte viac usadí do tradície a treba si všímať, či to ostáva živé, alebo len stojí.",
+                other: "Druhú stranu {mid} opisuje ako postoj trvalosti a spolupatričnosti: úlohu viazanú na niečo založené a prenášané časom. Je to pozícia v rámci niečoho, čo trvá, nie to, čo si druhá strana súkromne myslí alebo cíti.",
+            },
+        },
+    },
+    'pentacles-page': {
+        en: {
+            essence: "Absorbed, patient learning that treats a practical skill as worth the time it takes.",
+            description: "A young figure stands in a green field, holding a single pentacle up at eye level and studying it as though nothing else were there. The card is the stance of someone taking a practical skill seriously from the start: slowly, attentively, in small and definite steps, with more interest in how a thing works than in how it looks. When it works, it is curiosity with patience, a willingness to be a beginner without hurrying out of the position. The risk is study that never turns into practice, preparation that keeps postponing the first real attempt, caution that mistakes absorption for progress. It may stand for a quality in you, for how something is approached, or for another person's place as a learner. It can also mark something to learn from arriving: a lesson, a piece of information, a first chance to try. It asks what the first real attempt would be.",
+            stake: "patient study of a practical skill",
+            question: "What would the first real attempt look like, and what is being studied in its place?",
+            lines: {
+                origin: "What {mid} leaves over from before is a first serious encounter with a skill or subject: the curiosity and the care about doing it properly still colour how this is approached.",
+                state: "{card} shows a situation at the start of something practical: more to learn than to demonstrate, with attention fixed on the thing itself. Whatever is arriving, a lesson, a piece of information or a first chance to try, is better handled slowly than quickly.",
+                driver: "What keeps this going, {mid} suggests, is the safety of being a student. Learning is a respectable reason to stay at the edge, and beneath it can sit a quiet protection against the exposure of a first attempt that might be poor.",
+                response: "For a way through, {mid} offers a small, definite step: take one real piece of the work in hand, accept a beginner's pace and let practice, not preparation, show what is understood.",
+                direction: "The tendency {mid} describes is toward steady growth at an early stage. If the present dynamic continues, knowledge accumulates carefully, and the thing to watch is whether it ever leaves the study.",
+                other: "{card} shows the other side's part as apprenticeship: a role still learning, approaching the matter with care. That is a stance of learning, not a reading of what they privately feel.",
+            },
+        },
+        sk: {
+            essence: "Pohltené, trpezlivé učenie, ktoré berie praktickú zručnosť ako vec hodnú času, aký si žiada.",
+            description: "Mladá postava stojí na zelenom poli, drží pred sebou jedinú mincu a skúma ju, akoby nič iné neexistovalo. Karta je postoj toho, kto sa k praktickej zručnosti od začiatku stavia vážne: pomaly, pozorne, malými a určitými krokmi, so záujmom o to, ako vec funguje, viac než o to, ako vyzerá. Keď to funguje, je to zvedavosť s trpezlivosťou, ochota byť začiatočníkom a neponáhľať sa z tej pozície preč. Riziko je štúdium, ktoré sa nikdy nezmení na prax, príprava, ktorá stále odkladá prvý skutočný pokus, a opatrnosť, ktorá berie pohltenosť za pokrok. V čítaní môže byť časťou teba, spôsobom, ako sa k niečomu pristupuje, alebo cudzou úlohou učňa. Môže tiež označovať príchod niečoho, z čoho sa dá učiť: lekcie, informácie alebo prvej príležitosti vyskúšať si to. Pýta sa, aký by bol prvý skutočný pokus.",
+            stake: "trpezlivé štúdium praktickej zručnosti",
+            question: "Aký by bol prvý skutočný pokus a čo sa študuje namiesto neho?",
+            lines: {
+                origin: "{card} zanecháva z dávnejšieho obdobia prvé vážne stretnutie so zručnosťou alebo predmetom: zvedavosť a dôraz na poriadnosť, ktoré dodnes farbia to, ako sa k veci pristupuje.",
+                state: "{card} ukazuje situáciu na začiatku niečoho praktického: viac je čo sa naučiť než čo predviesť a pozornosť patrí veci samotnej. Čokoľvek prichádza, lekcia, informácia či prvá možnosť vyskúšať si to, sa lepšie zvláda pomaly než rýchlo.",
+                driver: "Čo to drží v chode, ukazuje {mid}: istota byť študentom. Učenie je úctyhodný dôvod zostať na okraji a pod ním sa môže ticho skrývať ochrana pred obnažením pri prvom pokuse, ktorý nemusí vyjsť.",
+                response: "Cestu cez to ponúka {mid}: malý, určitý krok. Vziať do rúk jeden skutočný kus práce, prijať tempo začiatočníka a nechať prax, nie prípravu, ukázať, čo je pochopené.",
+                direction: "Tendencia, ktorú {mid} opisuje, ide k pokojnému rastu v počiatočnej fáze. Ak súčasná dynamika pokračuje, vedomosti sa hromadia opatrne a treba si všímať, či sa niekedy dostanú z učenia do práce.",
+                other: "{card} ukazuje podiel druhej strany ako učňovstvo: úlohu, ktorá sa ešte učí a pristupuje k veci opatrne. Je to postoj učenia, nie pohľad do toho, čo druhá strana súkromne cíti.",
+            },
+        },
+    },
+    'pentacles-knight': {
+        en: {
+            essence: "Progress made by not stopping: slow, thorough, dependable movement that finishes what it starts.",
+            description: "A rider in heavy armour sits on a heavy horse that is standing quite still, a pentacle held out in front, a ploughed field behind. Of the four knights this is the one that does not charge. It gets there by routine, by thoroughness and by a refusal to skip steps, and its pace is part of the method. Done well, it is dependability: the unglamorous part of the work done completely, and returned to tomorrow. Overdone, the same virtue turns over into a pace so cautious that nothing is ever risked, a routine that has outlived its purpose, thoroughness used as a reason not to arrive. Read as a person, a role or a way of acting, it stands for steadiness and the slowness that comes with it. The open question is whether this pace is still carrying the work or only keeping it company.",
+            stake: "slow and unglamorous thoroughness",
+            question: "Is this pace still carrying the work forward, or has the routine become a reason not to arrive?",
+            lines: {
+                origin: "{card} stands for something from the past that still sets the terms: a long stretch of showing up and doing the same sound thing again and again, whose reliability is what this is still built on.",
+                state: "The picture {mid} gives of the present is progress at an even, unhurried pace: nothing dramatic, nothing skipped, each part finished before the next is begun. The field is being worked, and the pace is part of the method.",
+                driver: "{card} points to what is working below the surface: a distrust of shortcuts. Thoroughness protects against error and against moving faster than the work can bear; the cost is that a routine can run on long after anyone has asked where it leads.",
+                response: "{card} answers with a stance: continuity with a check built in. Keep the steady pace that is working, and pause at intervals to ask whether the direction, not only the effort, still deserves it.",
+                direction: "{card} leans toward slow, reliable continuation, if the present dynamic continues: the work gets finished by not stopping, and the thing to watch is stagnation passing itself off as steadiness.",
+                other: "As the other side, {mid} stands for a role of dependable persistence: one that keeps going, unhurried and thorough. It describes a way of acting, not what they privately think or feel.",
+            },
+        },
+        sk: {
+            essence: "Pokrok tým, že sa nezastaví: pomalý, dôkladný a spoľahlivý pohyb, ktorý dokončí, čo začal.",
+            description: "Jazdec v ťažkej zbroji sedí na ťažkom koni, ktorý stojí úplne nehybne, pred sebou drží mincu a za ním je zorané pole. Zo štyroch rytierov je to ten, čo sa nerozbehne. K cieľu ide rutinou, dôkladnosťou a odmietnutím preskočiť čo i len krok a jeho tempo je súčasťou metódy. Keď to funguje, je to spoľahlivosť: nenápadnú časť práce odviesť celú a vrátiť sa k nej aj zajtra. Pri prehnaní sa tá istá čnosť obráti: tempo také opatrné, že sa nikdy nič neriskuje, rutina, ktorá prežila svoj účel, dôkladnosť, ktorá slúži ako dôvod neprísť do cieľa. Ako človek, úloha alebo spôsob konania znamená stálosť a s ňou aj pomalosť. Otvorená otázka je, či toto tempo ešte nesie prácu, alebo jej robí len spoločnosť.",
+            stake: "pomalé, dôkladné a nenápadné napredovanie",
+            question: "Nesie toto tempo ešte prácu vpred, alebo sa z rutiny stal dôvod nedôjsť do cieľa?",
+            lines: {
+                origin: "{card} ukazuje na niečo skoršie, čo dodnes určuje podmienky: dlhý úsek dochádzania na to isté miesto a opakovania tej istej poctivej veci. Jej spoľahlivosť je základ, na ktorom to stojí.",
+                state: "Obraz súčasnosti, ktorý {mid} dáva, je pokrok rovnomerným, nenáhlivým tempom: nič dramatické, nič vynechané, každá časť dokončená skôr, než sa začne ďalšia. Pole sa obrába a tempo je súčasťou metódy.",
+                driver: "{card} poukazuje na to, čo pracuje pod povrchom: nedôveru voči skratkám. Dôkladnosť chráni pred chybou aj pred tempom, ktoré práca neunesie; cena je, že rutina môže bežať dlho po tom, čo sa nikto nespýtal, kam vedie.",
+                response: "{card} odpovedá postojom: stálosť so zabudovanou kontrolou. Držať tempo, ktoré funguje, a v odstupoch sa pýtať, či si to isté tempo zaslúži aj smer, nielen úsilie.",
+                direction: "{card} sa prikláňa k pomalému a spoľahlivému pokračovaniu, ak súčasná dynamika pokračuje: dielo sa dokončuje tým, že sa nezastavuje, a treba si všímať stagnáciu, ktorá sa vydáva za vytrvalosť.",
+                other: "Ako druhá strana {mid} zastupuje úlohu spoľahlivej vytrvalosti: za niekoho, kto ide ďalej, bez náhlenia a dôkladne. Je to spôsob konania, nie to, čo si druhá strana súkromne myslí alebo cíti.",
+            },
+        },
+    },
+    'pentacles-queen': {
+        en: {
+            essence: "Practical care made real: the quiet mastery of looking after the material side of life well.",
+            description: "A throned figure sits in a bower of flowering roses, a pentacle in the lap, looking at it more thoughtfully than possessively, a rabbit at ease nearby. Where the Knight keeps going and the King commands, this card cultivates: it turns resources, time and attention into a place that supports whoever depends on it. Well used, it is resourcefulness without anxiety, a home, a craft or a working life run so that it is actually good to be inside. What separates it from private comfort is that others are in the room: the abundance is made to be shared. The risk is care that never includes the one giving it, practicality that tips into worry over supply, or generosity that becomes a way of holding on. Read as a person, a role or a part of you, it describes whoever sustains the practical ground. The open question is whether the one tending is standing on ground that is tended too.",
+            stake: "resourceful care for what sustains daily life",
+            question: "Who tends the ground you are standing on, while you tend the ground for everyone else?",
+            lines: {
+                origin: "{card} reads as an influence carried in from earlier: a period or a way of living that taught how to make a place work, how to stretch what is available and how to look after things quietly, and whose habits still set the standard.",
+                state: "{card} describes a situation held together by practical attention: things are provided for, resources are managed with care, and comfort has been made real rather than promised. The weight sits on whoever keeps it running.",
+                driver: "{card} in the underlying place suggests that what keeps this going is being the one who makes it work. That role earns security and gratitude; the cost is that the one tending can become the last thing tended, with usefulness standing in for rest.",
+                response: "As the way forward, {mid} asks for care that includes its source: to keep the grounded, generous management of what is there, and to turn some of it toward the one who provides it.",
+                direction: "{card} marks a tendency toward things being well provided for. If the present dynamic continues, what is nurtured keeps growing, and the thing to watch is whether the care stays generous or tightens into worry about supply.",
+                other: "On the other side, {mid} points to a stance of practical care and resourcefulness: a role that provides and sustains. It describes a way of acting, not what they privately think or feel, and it does not depend on any particular person.",
+            },
+        },
+        sk: {
+            essence: "Praktická starostlivosť premenená na skutočnosť: tichá zručnosť dobre sa postarať o hmotnú stránku života.",
+            description: "Postava na tróne sedí v altánku z kvitnúcich ruží, mincu na lone si prezerá skôr zamyslene než vlastnícky a nablízku pokojne sedí králik. Kým rytier ide ďalej a kráľ velí, táto karta pestuje: mení zdroje, čas a pozornosť na miesto, ktoré podopiera tých, čo od neho závisia. Keď to funguje, je to vynaliezavosť bez úzkosti: domov, remeslo alebo pracovný život vedený tak, že je v ňom naozaj dobre byť. Od súkromného pohodlia ju odlišuje, že v miestnosti sú aj iní: hojnosť sa robí na zdieľanie a záhrada je otvorená. Riziko je starostlivosť, do ktorej sa nikdy nezarátava ten, kto ju dáva, praktickosť, ktorá sa zvrhne na obavy o zásoby, alebo štedrosť, ktorá sa mení na spôsob, ako držať. Ako človek, úloha alebo časť teba opisuje toho, kto udržiava praktickú pôdu. Otvorená otázka je, či je pôda pod tým, kto opatruje, opatrovaná tiež.",
+            stake: "zručná starostlivosť o každodenné zázemie",
+            question: "Kto sa stará o pôdu, na ktorej stojíš, kým sa ty staráš o pôdu všetkých ostatných?",
+            lines: {
+                origin: "{card} sa číta ako vplyv z predchádzajúceho obdobia: čas alebo spôsob života, ktorý naučil, ako udržať miesto v chode, vystačiť si s málom a potichu sa o veci postarať, a ktorého návyky dodnes určujú mieru.",
+                state: "{card} opisuje situáciu držanú pokope praktickou pozornosťou: je postarané, so zdrojmi sa zaobchádza opatrne a pohodlie sa stalo skutočnosťou, nie sľubom. Váha leží na tom, kto to udržiava v chode.",
+                driver: "{card} na mieste toho, čo je pod povrchom, dáva tušiť, že situáciu drží pokope úloha toho, na kom to celé stojí. Táto úloha prináša istotu aj vďaku, no cena je, že ten, kto sa stará, sa môže stať posledným, o koho je postarané, a užitočnosť nahradí odpočinok.",
+                response: "Ako cesta vpred {mid} žiada starostlivosť, ktorá zahŕňa aj svoj zdroj: zachovať triezve a štedré hospodárenie s tým, čo je po ruke, a časť z toho obrátiť aj na toho, kto to zaisťuje.",
+                direction: "{card} naznačuje smer k tomu, že je o veci dobre postarané. Ak súčasná dynamika pokračuje, to, čo sa opatruje, ďalej rastie a treba si všímať, či starostlivosť ostáva štedrá, alebo sa sťahuje do obáv o zásoby.",
+                other: "Na mieste druhej strany {mid} ukazuje postoj praktickej starostlivosti a vynaliezavosti: úlohu, ktorá zaisťuje a udržiava. Je to spôsob konania, nie to, čo si druhá strana súkromne myslí alebo cíti, a nie je viazaný na konkrétneho človeka.",
+            },
+        },
+    },
+    'pentacles-king': {
+        en: {
+            essence: "Command of means, exercised with responsibility: what has been built is held, used and answered for.",
+            description: "A crowned figure sits on a throne carved with bulls, grapevines trailing around it, a castle behind and a pentacle resting on the knee: not displaying plenty but at rest with it. The card is mastery of means exercised in the open: structures that last, decisions that carry other people's weight, the steadiness of whoever is answerable for what exists. What it gives when it works is dependable provision, good judgement about resources and the authority that comes from having built something real. The risk is rigidity: the means becoming the measure, control that cannot be loosened, everything and everyone weighed by what it yields. Read as a person, a role or a part of you, it describes whoever holds the responsibility. The test of the card is what the structure serves, and whether it still does.",
+            stake: "responsible command of what has been built",
+            question: "What is this structure for, and is it still serving that purpose or only protecting itself?",
+            lines: {
+                origin: "Behind this, {mid} points to something from earlier: a time of building something solid and taking responsibility for it, whose authority and caution still shape how decisions are weighed.",
+                state: "Where things stand, {mid} shows a situation under settled command: resources are in hand, responsibilities are clear and the structure is running. The emphasis is on holding what exists and answering for it, not on adding to it.",
+                driver: "Underneath this, {mid} suggests that what keeps this going is the need to keep control of what was built. Holding the reins gives security and standing; the cost is a rigidity that treats change as a threat and measures people by what they contribute.",
+                response: "What {mid} asks for here is authority used in service of the purpose: keep what is sound, loosen the grip on what is merely habitual, and remember what the structure was built to serve.",
+                direction: "If the present dynamic continues, {mid} points toward consolidation and control: what exists becomes steadier and more fixed, and the thing to watch is firmness hardening into inflexibility.",
+                other: "For the other side, {mid} describes a posture of authority and responsibility: a role that provides, decides and holds the structure together. It is a position, not what they privately think or feel.",
+            },
+        },
+        sk: {
+            essence: "Vláda nad prostriedkami vykonávaná so zodpovednosťou: čo sa vybudovalo, to sa drží, používa a zodpovedá sa za to.",
+            description: "Korunovaná postava sedí na tróne vyrezávanom bykmi, okolo sa ovíja vinič, v diaľke stojí hrad a minca spočíva na kolene: nepredvádza hojnosť, ale odpočíva v nej. Karta je zvládnutie prostriedkov pred očami iných: stavby, ktoré trvajú, rozhodnutia nesúce váhu iných, pokoj toho, kto zodpovedá za to, čo existuje. Keď to funguje, je to spoľahlivé zaopatrenie, dobrý úsudok o zdrojoch a autorita, ktorá vzniká z toho, že sa postavilo niečo skutočné. Riziko je stuhnutosť: prostriedky, ktoré sa stanú mierkou, kontrola, ktorú nemožno povoliť, všetko a všetci odvážení podľa toho, čo prinášajú. Ako človek, úloha alebo časť teba opisuje toho, kto nesie zodpovednosť. Skúškou karty je, čomu stavba slúži a či tomu ešte slúži.",
+            stake: "zodpovedné vládnutie nad tým, čo sa vybudovalo",
+            question: "Načo táto stavba slúži a plní ešte ten účel, alebo už chráni len samu seba?",
+            lines: {
+                origin: "Za týmto stojí {mid} ako vec z predchádzajúceho obdobia: čas budovania niečoho pevného a prevzatia zodpovednosti za to, ktorého autorita a opatrnosť dodnes určujú, ako sa rozhoduje.",
+                state: "Tam, kde veci stoja, {mid} ukazuje situáciu pod pevným velením: zdroje sú po ruke, zodpovednosti jasné a stavba beží. Dôraz je na držaní existujúceho a zodpovednosti za to, nie na pridávaní.",
+                driver: "Pod povrchom {mid} ukazuje, že to drží potreba udržať kontrolu nad tým, čo sa vybudovalo. Držanie opratí dáva istotu a postavenie; cena je stuhnutosť, ktorá berie zmenu ako hrozbu a ľudí meria podľa toho, čo prinášajú.",
+                response: "{card} tu žiada autoritu v službe účelu: zachovať, čo je pevné, uvoľniť zovretie nad tým, čo je len zvyk, a pripomínať si, čomu mala stavba slúžiť.",
+                direction: "Ak súčasná dynamika pokračuje, {mid} ukazuje na kontrolu a pevnejšie držanie: existujúce sa zatvrdzuje a treba si všímať, kedy sa pevnosť zmení na neústupnosť.",
+                other: "Druhú stranu {mid} opisuje ako postoj autority a zodpovednosti: úlohu, ktorá zaisťuje, rozhoduje a drží stavbu pokope. Je to pozícia, nie to, čo si druhá strana súkromne myslí alebo cíti.",
+            },
+        },
+    },
+};
